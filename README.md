@@ -63,19 +63,19 @@ I am a Computer Science & Engineering student and Freelance Digital Creator. I s
 
 ---
 
-### 📊 GitHub Stats
+
+---
+
+### 📈 GitHub Contribution Activity
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=NittinChughani&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true"
-    alt="Nittin Chughani's GitHub Statistics"
-    width="49%"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=NittinChughani&layout=compact&theme=tokyonight&hide_border=true"
-    alt="Most Used Programming Languages"
-    width="49%"
-  />
+  <a href="https://github.com/NittinChughani">
+    <img
+      src="https://github-readme-activity-graph.vercel.app/graph?username=NittinChughani&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true"
+      alt="Nittin Chughani's GitHub Contribution Activity Graph"
+      width="100%"
+    />
+  </a>
 </p>
 
 ---
