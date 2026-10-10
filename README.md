@@ -12,13 +12,12 @@
 
 ### 💫 About Me
 
-I am a Computer Science & Engineering student and Freelance Digital Creator interested in backend logic, software development, and building structured applications.
+I am a Computer Science & Engineering student and Freelance Digital Creator. I specialize in backend logic, structured system coding, and web foundations.
 
-- 🔭 **Currently Learning:** Object-Oriented Programming (OOP) with C++.
-- 🎓 **Skills:** C, C++, Python, HTML, and programming fundamentals.
-- 💻 **Interests:** Software development, problem-solving, and web technologies.
-- 🌱 **Goal:** Continuously improving my programming skills and building practical projects.
-- 💬 Feel free to connect with me or explore my work!
+- 🔭 **Current Focus:** Deep diving into **Object-Oriented Programming (OOP) architectures using C++**.
+- 🎓 **Background:** Successfully completed core training in **C programming**, **Python development**, and **HTML static web structures**.
+- 💬 Ask me about procedural logic, software design structures, or project setup.
+- 📫 How to reach me: Connect with me through my professional links below!
 
 ---
 
@@ -30,8 +29,8 @@ I am a Computer Science & Engineering student and Freelance Digital Creator inte
       <h4>💻 Languages & Core</h4>
       <p>
         <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
-        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-        <img src="https://img.shields.io/badge/OOP-6A5ACD?style=for-the-badge" alt="OOP"/>
+        <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+        <img src="https://img.shields.io/badge/OOP-6A5ACD?style=for-the-badge" alt="Object-Oriented Programming"/>
         <br/>
         <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
         <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
@@ -55,26 +54,23 @@ I am a Computer Science & Engineering student and Freelance Digital Creator inte
 
 <p align="left">
   <a href="https://www.fiverr.com/users/nittinchughani/">
-    <img src="https://img.shields.io/badge/Fiverr-Hire_Me-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr"/>
+    <img src="https://img.shields.io/badge/Fiverr-Hire_Me-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Visit my Fiverr profile"/>
   </a>
   <a href="https://www.facebook.com/share/19mHYS59Tp/">
-    <img src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
-  </a>
-  <a href="https://github.com/NittinChughani">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Connect on Facebook"/>
   </a>
 </p>
 
 ---
 
-### 📈 GitHub Contribution Activity
+### 🔥 GitHub Contribution Streak
 
 <p align="center">
   <a href="https://github.com/NittinChughani">
     <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=NittinChughani&theme=tokyo-night&hide_border=true&area=true"
-      alt="GitHub Contribution Activity Graph"
-      width="100%"
+      src="https://streak-stats.demolab.com?user=NittinChughani&theme=tokyonight&hide_border=true&border_radius=10"
+      alt="Nittin Chughani's GitHub Contribution Streak"
+      width="70%"
     />
   </a>
 </p>
