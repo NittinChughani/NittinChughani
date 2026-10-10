@@ -67,12 +67,11 @@ I am a Computer Science & Engineering student and Freelance Digital Creator. I s
 ---
 
 ### 📈 GitHub Contribution Activity
-
 <p align="center">
   <a href="https://github.com/NittinChughani">
     <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=NittinChughani&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true"
-      alt="Nittin Chughani's GitHub Contribution Activity Graph"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=NittinChughani&theme=tokyo-night&hide_border=true&area=true"
+      alt="GitHub Contribution Activity Graph"
       width="100%"
     />
   </a>
