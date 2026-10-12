@@ -1,5 +1,4 @@
-
-# Hi there, I'm Nittin Chughani 👋
+## Nittin Chughani | 🎓 CS Student & 💻 Digital Creator
 
 <p align="left">
   <img src="https://img.shields.io/badge/Location-Pakistan-0A66C2?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location: Pakistan"/>
@@ -17,7 +16,7 @@ I am a Computer Science & Engineering student and Freelance Digital Creator. I s
 - 🔭 **Current Focus:** Deep diving into **Object-Oriented Programming (OOP) architectures using C++**.
 - 🎓 **Background:** Successfully completed core training in **C programming**, **Python development**, and **HTML static web structures**.
 - 💬 Ask me about procedural logic, software design structures, or project setup.
-- 📫 How to reach me: Connect with me through my professional links below!
+- 📫 **How to reach me:** Connect with me through my professional links below!
 
 ---
 
@@ -63,16 +62,19 @@ I am a Computer Science & Engineering student and Freelance Digital Creator. I s
 
 ---
 
-### 🔥 GitHub Contribution Streak
+### 📊 GitHub Stats
 
-<p align="center">
-  <a href="https://github.com/NittinChughani">
-    <img
-      src="https://streak-stats.demolab.com?user=NittinChughani&theme=tokyonight&hide_border=true&border_radius=10"
-      alt="Nittin Chughani's GitHub Contribution Streak"
-      width="70%"
-    />
-  </a>
+<p align="left">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=NittinChughani&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true"
+    alt="Nittin Chughani's GitHub Statistics"
+    width="49%"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=NittinChughani&layout=compact&theme=tokyonight&hide_border=true"
+    alt="Most Used Programming Languages"
+    width="49%"
+  />
 </p>
 
 ---
