@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-label="GitHub development milestones">
+<rect x="1" y="1" width="1198" height="288" rx="20" fill="#121928" stroke="#43506A" stroke-width="2"/>
+<rect x="23" y="15" width="565" height="115" rx="16" fill="#202B40" stroke="#4C5A75"/>
+<rect x="39" y="30" width="86" height="86" rx="22" fill="#313F5A"/>
+<text x="82" y="83" font-size="34" fill="#A4BAFF" font-weight="800" text-anchor="middle" font-family="Arial,Segoe UI,sans-serif">5+</text>
+<text x="141" y="64" font-size="25" fill="#F2F6FF" font-weight="700" font-family="Arial,Segoe UI,sans-serif">Public Repositories</text>
+<text x="141" y="96" font-size="17" fill="#B6C7DA" font-family="Arial,Segoe UI,sans-serif">6 original public repositories</text>
+<rect x="613" y="15" width="565" height="115" rx="16" fill="#202B40" stroke="#4C5A75"/>
+<rect x="629" y="30" width="86" height="86" rx="22" fill="#313F5A"/>
+<text x="672" y="83" font-size="34" fill="#72E2D3" font-weight="800" text-anchor="middle" font-family="Arial,Segoe UI,sans-serif">3+</text>
+<text x="731" y="64" font-size="25" fill="#F2F6FF" font-weight="700" font-family="Arial,Segoe UI,sans-serif">GitHub Pages Projects</text>
+<text x="731" y="96" font-size="17" fill="#B6C7DA" font-family="Arial,Segoe UI,sans-serif">3 repos with GitHub Pages enabled</text>
+<rect x="23" y="147" width="565" height="115" rx="16" fill="#202B40" stroke="#4C5A75"/>
+<rect x="39" y="162" width="86" height="86" rx="22" fill="#313F5A"/>
+<text x="82" y="215" font-size="34" fill="#F9CE83" font-weight="800" text-anchor="middle" font-family="Arial,Segoe UI,sans-serif">5+</text>
+<text x="141" y="196" font-size="25" fill="#F2F6FF" font-weight="700" font-family="Arial,Segoe UI,sans-serif">Stars Received</text>
+<text x="141" y="228" font-size="17" fill="#B6C7DA" font-family="Arial,Segoe UI,sans-serif">5 stars across original repositories</text>
+<rect x="613" y="147" width="565" height="115" rx="16" fill="#202B40" stroke="#4C5A75"/>
+<rect x="629" y="162" width="86" height="86" rx="22" fill="#313F5A"/>
+<text x="672" y="215" font-size="34" fill="#B99BFF" font-weight="800" text-anchor="middle" font-family="Arial,Segoe UI,sans-serif">10+</text>
+<text x="731" y="196" font-size="25" fill="#F2F6FF" font-weight="700" font-family="Arial,Segoe UI,sans-serif">Merged Pull Requests</text>
+<text x="731" y="228" font-size="17" fill="#B6C7DA" font-family="Arial,Segoe UI,sans-serif">13 authored PRs merged on GitHub</text>
+</svg>

@@ -56,9 +56,8 @@ Currently working with **C/C++, Python, and JavaScript**, while exploring softwa
 ### 🏆 Achievements & Milestones
 
 <!-- AUTO-ACHIEVEMENTS:START -->
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/achievement-milestones.svg" alt="Automatically updated earned GitHub development milestones" width="100%" />
+<img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/achievement-milestones.svg" width="100%" alt="Verified GitHub milestones" />
 </p>
 
 <sub>Development milestones and publicly visible GitHub achievement badges refresh daily. Only badges actually detected on GitHub are shown.</sub>
