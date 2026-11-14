@@ -1,0 +1,30 @@
+name: Update GitHub profile summary cards
+
+on:
+  schedule:
+    - cron: "37 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-summary-cards.yml"
+      - "README.md"
+
+permissions:
+  contents: write
+
+jobs:
+  summary-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: NittinChughani
+          BRANCH_NAME: main
+          THEME: tokyonight
+          TIME_ZONE: Asia/Karachi
+          ANIMATION: load
+          AUTO_PUSH: true
