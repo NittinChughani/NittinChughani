@@ -85,13 +85,13 @@ I'm a **Computer Science & Engineering student** and **freelance digital creator
   <img height="165" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=NittinChughani&layout=compact&theme=tokyonight&hide_border=true" alt="Most-used repository languages" />
 </div>
 
-#### 🟩 Contribution calendar
+#### 📈 Contribution activity
 
 <div align="center">
-  <a href="https://github.com/NittinChughani"><img src="https://github-contributions.vercel.app/api/v1/NittinChughani" alt="GitHub contribution calendar for NittinChughani" width="95%" /></a>
+  <a href="https://github.com/NittinChughani">
+    <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/output/contributions.svg" alt="NittinChughani GitHub contribution activity chart" width="95%" />
+  </a>
 </div>
-
-<p align="center"><sub>If the third-party image is unavailable, <a href="https://github.com/NittinChughani">view the official contribution calendar on GitHub</a>.</sub></p>
 
 <sub>Language statistics reflect public repository code, not overall proficiency. Third-party stats and visuals may occasionally be unavailable.</sub>
 
