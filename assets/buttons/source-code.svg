@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="52" viewBox="0 0 210 52" role="img" aria-label="SOURCE CODE">
+<rect x="1" y="1" width="208" height="50" rx="12" fill="#252B3B" stroke="#8A9DBB" stroke-width="2"/>
+<text x="82" y="32" font-size="16" fill="#F5FAFF" font-family="Arial,'Segoe UI',sans-serif" letter-spacing=".35" text-anchor="middle" font-weight="700">SOURCE CODE</text>
+<g transform="translate(175,16)"><path d='M-4 4l-5 5 5 5M7 4l5 5-5 5M3 1l-5 16' stroke='#E7F0FF' stroke-width='2.1' stroke-linecap='round' stroke-linejoin='round' fill='none'/></g>
+</svg>
