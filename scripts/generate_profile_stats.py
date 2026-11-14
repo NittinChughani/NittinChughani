@@ -12,7 +12,6 @@ USER = os.environ.get("PROFILE_USER", "NittinChughani")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 API = "https://api.github.com"
 OUT = Path("assets/github-stats.svg")
-LANG_OUT = Path("assets/languages-used.svg")
 LOGOS = json.loads(Path("scripts/language_logos.json").read_text(encoding="utf-8"))["logos"]
 
 def embedded_logo(name, x, y):
@@ -61,52 +60,63 @@ COLORS = {
     "SQL": ("#8ED4D3", "#173538", "SQL")
 }
 
-def make_stats_svg(stats):
-    """Compact, responsive GitHub statistics image."""
+def make_dashboard_svg(stats, languages):
+    """A single compact panel: GitHub stats on the left, icon-only languages on the right.
+
+    Language logos are self-contained vector artwork from scripts/language_logos.json.
+    No names, proportions, or usage bars are displayed for languages.
+    """
+    width, height = 1400, 225
     out = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="290" viewBox="0 0 1400 290" role="img" aria-label="Automatically refreshed GitHub statistics">',
-        '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#151B2C"/><stop offset="1" stop-color="#111724"/></linearGradient></defs>',
-        '<rect x="2" y="2" width="1396" height="286" rx="20" fill="url(#bg)" stroke="#3E4B63" stroke-width="2"/>',
-        '<text x="38" y="50" font-family="Arial,Segoe UI,sans-serif" font-size="31" font-weight="700" fill="#ECF3FF">GitHub Stats</text>',
-        '<path d="M38 70H1362" stroke="#39475E"/>',
+        '<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d" role="img" aria-label="GitHub statistics and languages used">' % (width, height, width, height),
+        '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#161C2B"/><stop offset="1" stop-color="#111827"/></linearGradient></defs>',
+        '<rect x="1" y="1" width="1398" height="223" rx="18" fill="url(#bg)" stroke="#3D4C65" stroke-width="2"/>',
+        '<text x="35" y="38" font-family="Arial,Segoe UI,sans-serif" font-size="26" font-weight="700" fill="#F2F6FF">GitHub Stats</text>',
+        '<text x="777" y="38" font-family="Arial,Segoe UI,sans-serif" font-size="26" font-weight="700" fill="#F2F6FF">Languages Used</text>',
+        '<path d="M757 27V201" stroke="#40516C" stroke-width="2"/>',
     ]
-    for idx, (label, value) in enumerate(stats):
-        x = 35 + (idx % 3) * 448
-        y = 88 + (idx // 3) * 87
-        out += [
-            '<rect x="%d" y="%d" width="424" height="75" rx="12" fill="#202A3C" stroke="#43516B"/>' % (x, y),
-            '<text x="%d" y="%d" text-anchor="middle" font-family="Arial,Segoe UI,sans-serif" font-size="37" font-weight="800" fill="#F2F5FF">%s</text>' % (x + 212, y + 36, escape(str(value))),
-            '<text x="%d" y="%d" text-anchor="middle" font-family="Arial,Segoe UI,sans-serif" font-size="15" letter-spacing="1.1" fill="#A6B8D2">%s</text>' % (x + 212, y + 61, escape(label))
-        ]
+    for index, (label, value) in enumerate(stats):
+        x = 35 + (index % 3) * 238
+        y = 53 + (index // 3) * 77
+        out.extend([
+            '<rect x="%d" y="%d" width="220" height="67" rx="11" fill="#222E43" stroke="#40516A"/>' % (x, y),
+            '<text x="%d" y="%d" font-family="Arial,Segoe UI,sans-serif" text-anchor="middle" font-size="31" font-weight="800" fill="#F3F6FF">%s</text>' % (x + 110, y + 31, escape(str(value))),
+            '<text x="%d" y="%d" font-family="Arial,Segoe UI,sans-serif" text-anchor="middle" font-size="13" letter-spacing=".5" fill="#A9BAD4">%s</text>' % (x + 110, y + 53, escape(label)),
+        ])
+    # Six compact logo tiles in one row; further languages wrap to a second row.
+    visible = languages[:12]
+    if len(visible) <= 6:
+        count = len(visible)
+        tile_w = 82
+        step = 96
+        start = 782 + max(0, (582 - (count * tile_w + (count - 1) * (step - tile_w))) // 2)
+        for i, (name, _) in enumerate(visible):
+            x, y = start + i * step, 74
+            out.extend(language_tile(name, x, y, tile_w))
+    else:
+        step = 96
+        for i, (name, _) in enumerate(visible):
+            x = 782 + (i % 6) * step
+            y = 58 + (i // 6) * 83
+            out.extend(language_tile(name, x, y, 73))
     out.append('</svg>')
     return "\n".join(out) + "\n"
 
 
-def make_languages_svg(languages):
-    """Display original vector language logos, with no usage bars or percentages."""
-    rows = max(1, (len(languages) + 2) // 3)
-    height = 100 + rows * 182 + 18
-    out = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="%d" viewBox="0 0 1400 %d" role="img" aria-label="Programming languages detected in public repositories">' % (height, height),
-        '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#151B2C"/><stop offset="1" stop-color="#111724"/></linearGradient></defs>',
-        '<rect x="2" y="2" width="1396" height="%d" rx="20" fill="url(#bg)" stroke="#3E4B63" stroke-width="2"/>' % (height - 4),
-        '<text x="38" y="52" font-family="Arial,Segoe UI,sans-serif" font-size="31" font-weight="700" fill="#ECF3FF">Languages Used</text>',
-        '<text x="1362" y="50" text-anchor="end" font-family="Arial,Segoe UI,sans-serif" font-size="18" fill="#9BABBD">Detected in public repositories</text>',
-        '<path d="M38 70H1362" stroke="#39475E"/>'
-    ]
-    for i, (name, _) in enumerate(languages):
-        x, y = 35 + (i % 3) * 448, 88 + (i // 3) * 182
-        fg, bg, fallback = COLORS.get(name, ("#96B5EB", "#23324B", name[:3].upper()))
-        out.append('<rect x="%d" y="%d" width="424" height="166" rx="18" fill="#202A3C" stroke="#475672"/>' % (x, y))
-        out.append('<rect x="%d" y="%d" width="112" height="112" rx="25" fill="%s" stroke="%s" stroke-opacity=".5" stroke-width="2"/>' % (x + 20, y + 27, bg, fg))
-        logo = embedded_logo(name, x + 39, y + 46)
-        if logo:
-            out.append(logo.replace('width="64" height="64"', 'width="74" height="74"'))
-        else:
-            out.append('<text x="%d" y="%d" text-anchor="middle" font-size="31" font-family="Arial" font-weight="800" fill="%s">%s</text>' % (x + 76, y + 94, fg, escape(fallback)))
-        out.append('<text x="%d" y="%d" font-family="Arial,Segoe UI,sans-serif" font-size="30" font-weight="700" fill="#F2F6FF">%s</text>' % (x + 155, y + 97, escape(name)))
-    out.append('</svg>')
-    return "\n".join(out) + "\n"
+def language_tile(name, x, y, tile_w):
+    fg, bg, fallback = COLORS.get(name, ("#9EB9E9", "#24344A", name[:3].upper()))
+    out = ['<rect x="%d" y="%d" width="%d" height="%d" rx="17" fill="%s" stroke="%s" stroke-opacity=".6"/>' %
+           (x, y, tile_w, tile_w, bg, fg)]
+    icon_w = 58 if tile_w >= 80 else 50
+    margin = (tile_w - icon_w) // 2
+    mark = embedded_logo(name, x + margin, y + margin)
+    if mark:
+        out.append(mark.replace('width="64" height="64"', 'width="%d" height="%d"' % (icon_w, icon_w)))
+    else:
+        out.append('<text x="%d" y="%d" text-anchor="middle" font-size="18" font-weight="800" font-family="Arial" fill="%s">%s</text>' %
+                   (x + tile_w // 2, y + tile_w // 2 + 6, fg, escape(fallback)))
+    return out
+
 
 def main():
     person = request("/users/" + quote(USER))
@@ -130,9 +140,8 @@ def main():
     ]
     languages = sorted(sizes.items(), key=lambda row: row[1], reverse=True)[:9]
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(make_stats_svg(stats), encoding="utf-8")
-    LANG_OUT.write_text(make_languages_svg(languages), encoding="utf-8")
-    print("Updated", OUT, "and", LANG_OUT, "with", len(languages), "language logos")
+    OUT.write_text(make_dashboard_svg(stats, languages), encoding="utf-8")
+    print("Updated compact stats and language-logo dashboard:", OUT)
 
 if __name__ == "__main__":
     main()
