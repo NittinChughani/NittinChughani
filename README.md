@@ -53,18 +53,6 @@ Currently working with **C/C++, Python, and JavaScript**, while exploring softwa
 
 ---
 
-### 🏆 Achievements & Milestones
-
-<!-- AUTO-ACHIEVEMENTS:START -->
-<p align="center">
-<img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/achievement-milestones.svg" width="100%" alt="Verified GitHub milestones" />
-</p>
-
-<sub>Development milestones and publicly visible GitHub achievement badges refresh daily. Only badges actually detected on GitHub are shown.</sub>
-<!-- AUTO-ACHIEVEMENTS:END -->
-
----
-
 ### 🌐 Connect With Me
 
 Interested in a collaboration or a freelance project? You can find my work here or get in touch through the links below.
@@ -78,16 +66,10 @@ Interested in a collaboration or a freelance project? You can find my work here 
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub Stats & Languages Used
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/github-stats.svg" alt="Live GitHub statistics" width="100%" />
-</div>
-
-### 🛠 Languages Used
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/languages-used.svg" alt="Programming language icons detected in my public repositories" width="100%" />
+  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/github-stats.svg" alt="Compact GitHub statistics and programming-language logos" width="100%" />
 </div>
 
 ---
