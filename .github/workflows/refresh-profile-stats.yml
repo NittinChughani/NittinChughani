@@ -25,13 +25,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Regenerate GitHub statistics and official language logos
+      - name: Generate GitHub stats and languages-used logo gallery
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USER: NittinChughani
         run: python3 scripts/generate_profile_stats.py
 
-      - name: Update verified achievements in README
+      - name: Update earned milestones and official badge images in README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USER: NittinChughani
@@ -41,8 +41,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/github-stats.svg
+          git add README.md assets/github-stats.svg assets/languages-used.svg assets/achievement-milestones.svg
           if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh GitHub stats and achievements"
+            git commit -m "chore: refresh profile stats, languages and achievements"
             git push
           fi
