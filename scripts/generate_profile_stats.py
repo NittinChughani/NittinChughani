@@ -12,6 +12,16 @@ USER = os.environ.get("PROFILE_USER", "NittinChughani")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 API = "https://api.github.com"
 OUT = Path("assets/github-stats.svg")
+LOGOS = json.loads(Path("scripts/language_logos.json").read_text(encoding="utf-8"))["logos"]
+
+def embedded_logo(name, x, y):
+    raw = LOGOS.get(name)
+    if not raw:
+        return None
+    # All images are embedded as real vector paths, never external links.
+    content = raw[raw.index(">") + 1:raw.rfind("</svg>")]
+    return '<svg x="%d" y="%d" width="64" height="64" viewBox="0 0 128 128" aria-label="%s logo">%s</svg>' % (x, y, escape(name), content)
+
 
 def request(path, params=None):
     url = API + path
@@ -82,7 +92,11 @@ def make_svg(stats, languages):
         pct = (size / total) * 100 if total else 0
         out.append('<rect x="%d" y="%d" width="423" height="148" rx="12" fill="url(#tile)" stroke="#4B5362"/>' % (x, y))
         out.append('<rect x="%d" y="%d" width="90" height="90" rx="19" fill="%s" stroke="%s" stroke-opacity=".48"/>' % (x + 22, y + 23, bg, fg))
-        out.append('<text x="%d" y="%d" fill="%s" font-size="%d" font-weight="800" text-anchor="middle">%s</text>' % (x + 67, y + 80, fg, 27 if len(icon) > 2 else 33, escape(icon)))
+        vector_logo = embedded_logo(name, x + 35, y + 36)
+        if vector_logo:
+            out.append(vector_logo)
+        else:
+            out.append('<text x="%d" y="%d" fill="%s" font-size="%d" font-weight="800" text-anchor="middle">%s</text>' % (x + 67, y + 80, fg, 27 if len(icon) > 2 else 33, escape(icon)))
         out.append('<text x="%d" y="%d" class="lang">%s</text>' % (x + 130, y + 65, escape(name)))
         out.append('<text x="%d" y="%d" class="pct" text-anchor="end">%.1f%%</text>' % (x + 383, y + 65, pct))
         out.append('<rect x="%d" y="%d" width="251" height="10" rx="5" fill="#343B4A"/>' % (x + 130, y + 92))
