@@ -27,56 +27,40 @@ I'm a **Computer Science & Engineering student** and **freelance digital creator
 
 ### 🚀 Featured projects
 
-<div align="center">
 <table>
 <tr>
-<td width="50%" align="center" valign="top">
-<br/>
-<a href="https://github.com/NittinChughani/echoai">
-<img src="https://api.iconify.design/solar/chat-round-dots-bold-duotone.svg?color=%2358a6ff" width="64" height="64" alt="ECHO AI icon" />
-<br/><strong>ECHO AI</strong>
-</a>
-<br/><br/>
-<sub>Free AI chat website with customizable themes and no mandatory signup.</sub>
-<br/><br/>
+<td width="120" align="center" valign="middle">
+<a href="https://github.com/NittinChughani/echoai"><img src="https://raw.githubusercontent.com/NittinChughani/echoai/main/docs/favicon.svg" alt="Original ECHO AI logo" width="90" height="90" /></a>
 </td>
-<td width="50%" align="center" valign="top">
-<br/>
-<a href="https://github.com/NittinChughani/TurnAhead">
-<img src="https://api.iconify.design/solar/clock-circle-bold-duotone.svg?color=%2358a6ff" width="64" height="64" alt="TurnAhead icon" />
-<br/><strong>TurnAhead</strong>
-</a>
-<br/><br/>
-<sub>A smarter way to follow walk-in queues and know when your turn is coming.</sub>
-<br/><br/>
+<td valign="middle">
+<h3><a href="https://github.com/NittinChughani/echoai">✦ ECHO AI</a></h3>
+<p>A free AI chatbot website with two response modes, chat history and customizable themes—no signup needed.</p>
+<a href="https://nittinchughani.github.io/echoai/"><strong>Visit website</strong></a> · <a href="https://github.com/NittinChughani/echoai">Source code</a>
 </td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top">
-<br/>
-<a href="https://github.com/NittinChughani/gearex">
-<img src="https://api.iconify.design/solar/code-square-bold-duotone.svg?color=%2358a6ff" width="64" height="64" alt="GearEx icon" />
-<br/><strong>GearEx</strong>
-</a>
-<br/><br/>
-<sub>Learn programming with code execution and step-by-step visualization.</sub>
-<br/><br/>
+<td width="120" align="center" valign="middle">
+<a href="https://github.com/NittinChughani/TurnAhead"><img src="https://raw.githubusercontent.com/NittinChughani/TurnAhead/main/public/assets/favicon.png" alt="Original TurnAhead app logo" width="90" height="90" /></a>
 </td>
-<td width="50%" align="center" valign="top">
-<br/>
-<a href="https://github.com/NittinChughani/C-CODE-BASIC-TO-ADVANCE">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="64" height="64" alt="C programming icon" />
-<br/><strong>C: Basic to Advance</strong>
-</a>
-<br/><br/>
-<sub>C programming exercises and learning resources, from basics onward.</sub>
-<br/><br/>
+<td valign="middle">
+<h3><a href="https://github.com/NittinChughani/TurnAhead">✦ TurnAhead</a></h3>
+<p>A smarter walk-in queue system for clinics and hospitals, with QR tickets, live tracking and staff dashboards.</p>
+<a href="https://nittinchughani.github.io/TurnAhead/"><strong>Visit website</strong></a> · <a href="https://github.com/NittinChughani/TurnAhead">Source code</a>
+</td>
+</tr>
+<tr>
+<td width="120" align="center" valign="middle">
+<a href="https://github.com/NittinChughani/gearex"><img src="https://raw.githubusercontent.com/NittinChughani/gearex/main/assets/favicon.svg" alt="Original GearEx logo" width="90" height="90" /></a>
+</td>
+<td valign="middle">
+<h3><a href="https://github.com/NittinChughani/gearex">✦ GearEx</a></h3>
+<p>An interactive programming learning platform with guided lessons, code execution and step-by-step visualization.</p>
+<a href="https://nittinchughani.github.io/gearex/"><strong>Visit website</strong></a> · <a href="https://github.com/NittinChughani/gearex">Source code</a>
 </td>
 </tr>
 </table>
-</div>
 
-<sub>Illustrative icons are used here; they are not necessarily the projects' official logos.</sub>
+**Also exploring:** [C programming — Basic to Advance](https://github.com/NittinChughani/C-CODE-BASIC-TO-ADVANCE) · [All repositories](https://github.com/NittinChughani?tab=repositories)
 
 ### 🛠️ Tech stack
 
@@ -101,9 +85,13 @@ I'm a **Computer Science & Engineering student** and **freelance digital creator
   <img height="165" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=NittinChughani&layout=compact&theme=tokyonight&hide_border=true" alt="Most-used repository languages" />
 </div>
 
+#### 🟩 Contribution calendar
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NittinChughani&theme=tokyo-night&hide_border=true&area=true" alt="GitHub contribution activity graph" width="95%" />
+  <a href="https://github.com/NittinChughani"><img src="https://github-contributions.vercel.app/api/v1/NittinChughani" alt="GitHub contribution calendar for NittinChughani" width="95%" /></a>
 </div>
+
+<p align="center"><sub>If the third-party image is unavailable, <a href="https://github.com/NittinChughani">view the official contribution calendar on GitHub</a>.</sub></p>
 
 <sub>Language statistics reflect public repository code, not overall proficiency. Third-party stats and visuals may occasionally be unavailable.</sub>
 
