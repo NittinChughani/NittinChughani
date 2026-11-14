@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="575" viewBox="0 0 1400 575" role="img" aria-label="GitHub statistics and languages used in public repositories">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#161A22"/><stop offset="1" stop-color="#10141B"/></linearGradient><linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#262A33"/><stop offset="1" stop-color="#1C202A"/></linearGradient></defs>
+<style>text{font-family:Arial,'Segoe UI',sans-serif} .head{fill:#E7EBF6;font-size:28px;font-weight:700}.number{font-size:39px;fill:#F1F3FB;font-weight:800}.label{font-size:16px;letter-spacing:1.1px;fill:#AAB5C9}.lang{font-size:25px;font-weight:700;fill:#F1F4FD}.pct{font-size:25px;font-weight:700;fill:#BBC9E8}</style>
+<rect x="2" y="2" rx="16" width="1396" height="268" fill="url(#bg)" stroke="#3C4558" stroke-width="2"/>
+<text x="36" y="53" class="head">GitHub Stats</text><path d="M35 69H1365" stroke="#323948"/>
+<rect x="34" y="87" width="423" height="72" rx="10" fill="url(#tile)" stroke="#4B5362"/>
+<text x="245" y="120" class="number" text-anchor="middle">6</text>
+<text x="245" y="144" class="label" font-size="15" text-anchor="middle">PUBLIC REPOS</text>
+<rect x="481" y="87" width="423" height="72" rx="10" fill="url(#tile)" stroke="#4B5362"/>
+<text x="692" y="120" class="number" text-anchor="middle">5</text>
+<text x="692" y="144" class="label" font-size="15" text-anchor="middle">STARS EARNED</text>
+<rect x="928" y="87" width="423" height="72" rx="10" fill="url(#tile)" stroke="#4B5362"/>
+<text x="1139" y="120" class="number" text-anchor="middle">138</text>
+<text x="1139" y="144" class="label" font-size="15" text-anchor="middle">TOTAL COMMITS</text>
+<rect x="34" y="170" width="423" height="72" rx="10" fill="url(#tile)" stroke="#4B5362"/>
+<text x="245" y="203" class="number" text-anchor="middle">13</text>
+<text x="245" y="227" class="label" font-size="15" text-anchor="middle">PULL REQUESTS</text>
+<rect x="481" y="170" width="423" height="72" rx="10" fill="url(#tile)" stroke="#4B5362"/>
+<text x="692" y="203" class="number" text-anchor="middle">1</text>
+<text x="692" y="227" class="label" font-size="15" text-anchor="middle">ISSUES</text>
+<rect x="928" y="170" width="423" height="72" rx="10" fill="url(#tile)" stroke="#4B5362"/>
+<text x="1139" y="203" class="number" text-anchor="middle">6</text>
+<text x="1139" y="227" class="label" font-size="15" text-anchor="middle">CONTRIBUTED TO</text>
+<rect x="2" y="288" rx="16" width="1396" height="282" fill="url(#bg)" stroke="#3C4558" stroke-width="2"/>
+<text x="36" y="335" class="head">Most Used Languages</text><text x="1364" y="332" fill="#8292B7" font-family="Arial" text-anchor="end" font-size="16">Share of primary languages in public code repositories</text><path d="M35 351H1365" stroke="#323948"/>
+<rect x="35" y="373" width="423" height="154" rx="12" fill="url(#tile)" stroke="#4B5362"/>
+<rect x="57" y="395" width="91" height="91" rx="20" fill="#262011" stroke="#f7df1e" stroke-opacity=".4"/>
+<text x="102" y="453" fill="#f7df1e" font-size="34" font-weight="900" font-family="Arial" text-anchor="middle">JS</text>
+<text x="168" y="442" class="lang">JavaScript</text><text x="413" y="442" class="pct" text-anchor="end">60%</text>
+<rect x="168" y="464" width="245" height="9" rx="5" fill="#353C4B"/><rect x="168" y="464" width="147" height="9" rx="5" fill="#f7df1e"/>
+<rect x="482" y="373" width="423" height="154" rx="12" fill="url(#tile)" stroke="#4B5362"/>
+<rect x="504" y="395" width="91" height="91" rx="20" fill="#112c50" stroke="#76abff" stroke-opacity=".4"/>
+<text x="549" y="453" fill="#76abff" font-size="28" font-weight="900" font-family="Arial" text-anchor="middle">C++</text>
+<text x="615" y="442" class="lang">C++</text><text x="860" y="442" class="pct" text-anchor="end">20%</text>
+<rect x="615" y="464" width="245" height="9" rx="5" fill="#353C4B"/><rect x="615" y="464" width="49" height="9" rx="5" fill="#76abff"/>
+<rect x="929" y="373" width="423" height="154" rx="12" fill="url(#tile)" stroke="#4B5362"/>
+<rect x="951" y="395" width="91" height="91" rx="20" fill="#1e3344" stroke="#8db4cc" stroke-opacity=".4"/>
+<text x="996" y="453" fill="#8db4cc" font-size="34" font-weight="900" font-family="Arial" text-anchor="middle">C</text>
+<text x="1062" y="442" class="lang">C</text><text x="1307" y="442" class="pct" text-anchor="end">20%</text>
+<rect x="1062" y="464" width="245" height="9" rx="5" fill="#353C4B"/><rect x="1062" y="464" width="49" height="9" rx="5" fill="#8db4cc"/>
+</svg>
