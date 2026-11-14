@@ -4,7 +4,7 @@
 
 ### Computer Science & Engineering Student · Software Builder · Digital Creator
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+useful+software+for+real+people;C%2B%2B+%7C+Python+%7C+JavaScript+%7C+Web+Development;Learning%2C+shipping%2C+improving" alt="Animated introduction" />
+<a href="https://github.com/NittinChughani"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=950&color=70B7FF&center=true&vCenter=true&width=800&height=54&lines=Computer+Science+%26+Engineering+Student;Building+Useful+Open-Source+Software;C%2B%2B+%7C+Python+%7C+JavaScript;Web+Apps+%7C+Developer+Tools+%7C+Game+Dev" alt="Animated developer introduction" /></a>
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=NittinChughani&style=flat-square&color=238636&label=Profile+views" alt="Profile views" />
@@ -62,39 +62,6 @@ I'm a **Computer Science & Engineering student** and **freelance digital creator
 
 **Also exploring:** [C programming — Basic to Advance](https://github.com/NittinChughani/C-CODE-BASIC-TO-ADVANCE) · [All repositories](https://github.com/NittinChughani?tab=repositories)
 
-### 🛠️ Tech stack
-
-**Languages & web**
-
-<p>
-<img src="https://skillicons.dev/icons?i=c,cpp,python,html,css,js&theme=dark" alt="C, C++, Python, HTML, CSS, JavaScript" />
-</p>
-
-**Tools & workflow**
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Git, GitHub, Visual Studio Code" />
-</p>
-
-**Areas of interest:** Object-Oriented Programming · Software Engineering · UI/UX · Educational Tools · Open Source · Game Development
-
-### 📊 GitHub at a glance
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats-fast.vercel.app/api?username=NittinChughani&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=NittinChughani&layout=compact&theme=tokyonight&hide_border=true" alt="Most-used repository languages" />
-</div>
-
-#### 📈 Contribution activity
-
-<div align="center">
-  <a href="https://github.com/NittinChughani">
-    <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/output/contributions.svg" alt="NittinChughani GitHub contribution activity chart" width="95%" />
-  </a>
-</div>
-
-<sub>Language statistics reflect public repository code, not overall proficiency. Third-party stats and visuals may occasionally be unavailable.</sub>
-
 ### 🌐 Connect with me
 
 <p>
@@ -102,6 +69,22 @@ I'm a **Computer Science & Engineering student** and **freelance digital creator
 <a href="https://www.facebook.com/share/19mHYS59Tp/"><img src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
 <a href="https://github.com/NittinChughani"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
+
+### 📊 GitHub profile summary
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="GitHub profile overview" width="95%" />
+
+<img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Languages across repositories" width="47%" />
+<img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Languages used in commits" width="47%" />
+
+<img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub summary statistics" width="47%" />
+<img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Coding activity by time of day" width="47%" />
+
+</div>
+
+<sub>Cards show public GitHub data and repository languages, not proficiency levels. They refresh automatically through GitHub Actions.</sub>
 
 ---
 
