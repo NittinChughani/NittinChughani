@@ -27,50 +27,56 @@ I'm a **Computer Science & Engineering student** and **freelance digital creator
 
 ### 🚀 Featured projects
 
+<div align="center">
 <table>
 <tr>
-<td width="50%" valign="top">
-
-**[ECHO AI](https://github.com/NittinChughani/echoai)**
-
-A free-to-use AI chatbot website designed for quick access without mandatory signup, with customizable themes and chat features.
-
-`AI` `JavaScript` `Web App`
-
+<td width="50%" align="center" valign="top">
+<br/>
+<a href="https://github.com/NittinChughani/echoai">
+<img src="https://api.iconify.design/solar/chat-round-dots-bold-duotone.svg?color=%2358a6ff" width="64" height="64" alt="ECHO AI icon" />
+<br/><strong>ECHO AI</strong>
+</a>
+<br/><br/>
+<sub>Free AI chat website with customizable themes and no mandatory signup.</sub>
+<br/><br/>
 </td>
-<td width="50%" valign="top">
-
-**[TurnAhead](https://github.com/NittinChughani/TurnAhead)**
-
-A walk-in queue management project focused on helping people follow their turn without waiting in crowded queues.
-
-`Queue Management` `Web App`
-
+<td width="50%" align="center" valign="top">
+<br/>
+<a href="https://github.com/NittinChughani/TurnAhead">
+<img src="https://api.iconify.design/solar/clock-circle-bold-duotone.svg?color=%2358a6ff" width="64" height="64" alt="TurnAhead icon" />
+<br/><strong>TurnAhead</strong>
+</a>
+<br/><br/>
+<sub>A smarter way to follow walk-in queues and know when your turn is coming.</sub>
+<br/><br/>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-**[GearEx](https://github.com/NittinChughani/gearex)**
-
-A programming learning project with code execution and visualization features, designed to make program flow easier to understand.
-
-`Programming Education` `Code Visualization`
-
+<td width="50%" align="center" valign="top">
+<br/>
+<a href="https://github.com/NittinChughani/gearex">
+<img src="https://api.iconify.design/solar/code-square-bold-duotone.svg?color=%2358a6ff" width="64" height="64" alt="GearEx icon" />
+<br/><strong>GearEx</strong>
+</a>
+<br/><br/>
+<sub>Learn programming with code execution and step-by-step visualization.</sub>
+<br/><br/>
 </td>
-<td width="50%" valign="top">
-
-**[C: Basic to Advance](https://github.com/NittinChughani/C-CODE-BASIC-TO-ADVANCE)**
-
-A collection of C programming exercises and learning material, from fundamentals onward.
-
-`C` `Learning Resources`
-
+<td width="50%" align="center" valign="top">
+<br/>
+<a href="https://github.com/NittinChughani/C-CODE-BASIC-TO-ADVANCE">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="64" height="64" alt="C programming icon" />
+<br/><strong>C: Basic to Advance</strong>
+</a>
+<br/><br/>
+<sub>C programming exercises and learning resources, from basics onward.</sub>
+<br/><br/>
 </td>
 </tr>
 </table>
+</div>
 
-<sub>Projects are evolving—check each repository for its latest features and status.</sub>
+<sub>Illustrative icons are used here; they are not necessarily the projects' official logos.</sub>
 
 ### 🛠️ Tech stack
 
