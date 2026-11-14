@@ -1,10 +1,8 @@
 <div align="center">
 
-# Hi, I'm Nittin Chughani 👋
-
-### Computer Science & Engineering Student · Software Builder · Digital Creator
-
-<a href="https://github.com/NittinChughani"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=950&color=70B7FF&center=true&vCenter=true&width=800&height=54&lines=Computer+Science+%26+Engineering+Student;Building+Useful+Open-Source+Software;C%2B%2B+%7C+Python+%7C+JavaScript;Web+Apps+%7C+Developer+Tools+%7C+Game+Dev" alt="Animated developer introduction" /></a>
+<a href="https://github.com/NittinChughani">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2900&pause=1200&color=70B7FF&center=true&vCenter=true&width=900&height=75&lines=Hi%2C+I%27m+Nittin+Chughani;Computer+Science+%26+Engineering+Student;Software+Builder+%26+Digital+Creator;Building+Useful+Open-Source+Software" alt="Hi, I'm Nittin Chughani — Computer Science and Engineering Student, Software Builder and Digital Creator" />
+</a>
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=NittinChughani&style=flat-square&color=238636&label=Profile+views" alt="Profile views" />
