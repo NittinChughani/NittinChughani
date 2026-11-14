@@ -11,15 +11,6 @@
 
 <br/>
 
-<a href="https://github.com/NittinChughani">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1000&color=70B7FF&center=true&vCenter=true&width=800&height=55&lines=Computer+Science+%26+Engineering+Student;Software+Builder+%26+Digital+Creator;C%2B%2B+%7C+Python+%7C+JavaScript;Building+Useful+Open-Source+Software;Web+Development+%7C+Game+Development"
-    alt="Animated developer introduction"
-  />
-</a>
-
-<br/>
-
 <p>
   <img
     src="https://komarev.com/ghpvc/?username=NittinChughani&style=flat-square&color=238636&label=Profile+Views"
