@@ -1,209 +1,108 @@
-
 <div align="center">
-
-<a href="https://github.com/NittinChughani">
   <img
     src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/profile-banner.svg"
-    alt="Nittin Chughani — Software Developer"
+    alt="Nittin Chughani — computer science student and open-source developer"
     width="100%"
   />
-</a>
-
-<br/>
-
-<p>
-  <img
-    src="https://komarev.com/ghpvc/?username=NittinChughani&style=flat-square&color=238636&label=Profile+Views"
-    alt="Profile views"
-  />
-  <img
-    src="https://img.shields.io/badge/Based_in-Pakistan-0A66C2?style=flat-square"
-    alt="Based in Pakistan"
-  />
-  <a href="https://www.fiverr.com/users/nittinchughani/">
-    <img
-      src="https://img.shields.io/badge/Fiverr-Portfolio-1DBF73?style=flat-square&logo=fiverr&logoColor=white"
-      alt="Fiverr Portfolio"
-    />
-  </a>
-</p>
-
 </div>
 
 ---
 
 ### 👨‍💻 About Me
 
-I'm a **Computer Science & Engineering student** and **Freelance Digital Creator** who enjoys turning ideas into useful, accessible software.
+I'm a **Computer Science & Engineering student** and **freelance digital creator** based in Pakistan. I build open-source software that makes learning and everyday tasks more accessible.
 
-I work across programming fundamentals, web interfaces, and practical applications, with an emphasis on clean design and functionality that actually works.
+My work ranges from browser-based AI tools and interactive programming education to practical systems for managing clinic queues. I enjoy taking projects from initial design through implementation, testing, and documentation.
 
-- 🔨 Building open-source websites, developer tools, and real-world utilities.
-- 🧠 Exploring **C/C++**, Object-Oriented Programming, Python, and modern web development.
-- 💻 Developing practical software with a focus on usability and performance.
-- 🎮 Experimenting with game development and interactive experiences.
-- 🎯 My goal: **Build it, test it, document it, and make it useful.**
+Currently working with **C/C++, Python, and JavaScript**, while exploring software engineering and game development.
 
 ---
 
 ### 🚀 Featured Projects
 
 <table>
-
 <tr>
 <td width="120" align="center" valign="middle">
-<a href="https://github.com/NittinChughani/echoai">
-<img
-  src="https://raw.githubusercontent.com/NittinChughani/echoai/main/docs/favicon.svg"
-  alt="ECHO AI Logo"
-  width="90"
-  height="90"
-/>
-</a>
+  <a href="https://github.com/NittinChughani/echoai">
+    <img src="https://raw.githubusercontent.com/NittinChughani/echoai/main/docs/favicon.svg" alt="ECHO AI logo" width="90" height="90" />
+  </a>
 </td>
-
 <td valign="middle">
-<h3>
-<a href="https://github.com/NittinChughani/echoai">
-✦ ECHO AI
-</a>
-</h3>
-
-<p>
-A free AI chatbot website featuring two response modes,
-chat history, customizable themes, and an intuitive interface.
-No signup required.
-</p>
-
-<a href="https://nittinchughani.github.io/echoai/">
-<strong>Visit Website</strong>
-</a>
-&nbsp;·&nbsp;
-<a href="https://github.com/NittinChughani/echoai">
-Source Code
-</a>
+  <h3><a href="https://github.com/NittinChughani/echoai">ECHO AI</a></h3>
+  <p>A free, no-signup AI chat website with two assistant modes, searchable conversation history, and six themes. Designed for easy access directly from a browser.</p>
+  <a href="https://nittinchughani.github.io/echoai/"><strong>Visit website</strong></a> · <a href="https://github.com/NittinChughani/echoai">Source code</a>
 </td>
 </tr>
-
 <tr>
 <td width="120" align="center" valign="middle">
-<a href="https://github.com/NittinChughani/TurnAhead">
-<img
-  src="https://raw.githubusercontent.com/NittinChughani/TurnAhead/main/public/assets/favicon.png"
-  alt="TurnAhead Logo"
-  width="90"
-  height="90"
-/>
-</a>
+  <a href="https://github.com/NittinChughani/TurnAhead">
+    <img src="https://raw.githubusercontent.com/NittinChughani/TurnAhead/main/public/assets/favicon.png" alt="TurnAhead logo" width="90" height="90" />
+  </a>
 </td>
-
 <td valign="middle">
-<h3>
-<a href="https://github.com/NittinChughani/TurnAhead">
-✦ TurnAhead
-</a>
-</h3>
-
-<p>
-A smart walk-in queue management system for clinics and hospitals.
-Features QR tickets, live queue tracking, staff dashboards,
-and real-time turn notifications.
-</p>
-
-<a href="https://nittinchughani.github.io/TurnAhead/">
-<strong>Visit Website</strong>
-</a>
-&nbsp;·&nbsp;
-<a href="https://github.com/NittinChughani/TurnAhead">
-Source Code
-</a>
+  <h3><a href="https://github.com/NittinChughani/TurnAhead">TurnAhead</a></h3>
+  <p>A walk-in queue platform for clinics, connecting reception and patients through QR tickets, live turn tracking, doctor and room details, and staff dashboards.</p>
+  <a href="https://nittinchughani.github.io/TurnAhead/"><strong>Visit website</strong></a> · <a href="https://github.com/NittinChughani/TurnAhead">Source code</a>
 </td>
 </tr>
-
 <tr>
 <td width="120" align="center" valign="middle">
-<a href="https://github.com/NittinChughani/gearex">
-<img
-  src="https://raw.githubusercontent.com/NittinChughani/gearex/main/assets/favicon.svg"
-  alt="GearEx Logo"
-  width="90"
-  height="90"
-/>
-</a>
+  <a href="https://github.com/NittinChughani/gearex">
+    <img src="https://raw.githubusercontent.com/NittinChughani/gearex/main/assets/favicon.svg" alt="GearEx logo" width="90" height="90" />
+  </a>
 </td>
-
 <td valign="middle">
-<h3>
-<a href="https://github.com/NittinChughani/gearex">
-✦ GearEx
-</a>
-</h3>
-
-<p>
-An interactive programming learning platform featuring
-guided lessons, code execution, and step-by-step
-code visualization to make programming easier to understand.
-</p>
-
-<a href="https://nittinchughani.github.io/gearex/">
-<strong>Visit Website</strong>
-</a>
-&nbsp;·&nbsp;
-<a href="https://github.com/NittinChughani/gearex">
-Source Code
-</a>
+  <h3><a href="https://github.com/NittinChughani/gearex">GearEx</a></h3>
+  <p>An open-source programming workbench with guided lessons across seven languages, code execution, and a step-by-step visualizer for understanding program behavior.</p>
+  <a href="https://nittinchughani.github.io/gearex/"><strong>Visit website</strong></a> · <a href="https://github.com/NittinChughani/gearex">Source code</a>
 </td>
 </tr>
-
 </table>
 
-**Also Exploring:**
+**More on GitHub:** [C Programming — Basic to Advance](https://github.com/NittinChughani/C-CODE-BASIC-TO-ADVANCE) · [All repositories](https://github.com/NittinChughani?tab=repositories)
 
-[C Programming — Basic to Advance](https://github.com/NittinChughani/C-CODE-BASIC-TO-ADVANCE)
-&nbsp;·&nbsp;
-[Explore All Repositories](https://github.com/NittinChughani?tab=repositories)
+---
+
+### 🏆 Achievements & Milestones
+
+<!-- AUTO-ACHIEVEMENTS:START -->
+<table>
+<tr>
+<td width="50%" valign="top"><strong>🧩 5+ Public Repositories</strong><p>6 original public repositories published.</p></td>
+<td width="50%" valign="top"><strong>🌐 3+ GitHub Pages Projects</strong><p>3 public repositories have GitHub Pages enabled.</p></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><strong>⭐ 5+ Stars Received</strong><p>5 stars across original public repositories.</p></td>
+<td width="50%" valign="top"><strong>🤝 10+ Merged Pull Requests</strong><p>13 authored pull requests merged on GitHub.</p></td>
+</tr>
+</table>
+
+<sub>Updated daily from public GitHub data. These are development milestones, not GitHub-issued achievement badges. <a href="https://github.com/NittinChughani?tab=achievements">View official GitHub achievements</a>.</sub>
+<!-- AUTO-ACHIEVEMENTS:END -->
 
 ---
 
 ### 🌐 Connect With Me
 
-<p align="left">
+Interested in a collaboration or a freelance project? You can find my work here or get in touch through the links below.
 
 <a href="https://www.fiverr.com/users/nittinchughani/">
-<img
-  src="https://img.shields.io/badge/Fiverr-Hire_Me-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white"
-  alt="Fiverr"
-/>
+  <img src="https://img.shields.io/badge/Fiverr-Freelance_Inquiries-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Contact me on Fiverr" />
 </a>
-
 <a href="https://www.facebook.com/share/19mHYS59Tp/">
-<img
-  src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white"
-  alt="Facebook"
-/>
+  <img src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Connect on Facebook" />
 </a>
-
-<a href="https://github.com/NittinChughani">
-<img
-  src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"
-  alt="GitHub"
-/>
-</a>
-
-</p>
 
 ---
 
 ### 📊 GitHub Stats & Most Used Languages
 
 <div align="center">
-
-<img
-  src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/github-stats.svg"
-  alt="GitHub Statistics and Most Used Programming Languages"
-  width="100%"
-/>
-
+  <img
+    src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/github-stats.svg"
+    alt="Automatically updated GitHub statistics and most used languages"
+    width="100%"
+  />
 </div>
 
 ---
