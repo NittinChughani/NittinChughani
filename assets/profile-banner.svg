@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 550" width="1600" height="550" role="img" aria-label="Nittin Chughani: Computer Science and Engineering student, software builder, digital creator">
+<title>Nittin Chughani | Software developer</title>
+<desc>Midnight-blue developer banner with glowing fixed name, rotating role description and a neon workstation illustration.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070B20"/><stop offset=".6" stop-color="#0C1231"/><stop offset="1" stop-color="#100A24"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#344DAD" stop-opacity=".5"/><stop offset="1" stop-color="#344DAD" stop-opacity="0"/></radialGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17254C"/><stop offset="1" stop-color="#0A1430"/></linearGradient>
+<linearGradient id="trim" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#73B8FF"/><stop offset=".6" stop-color="#9E80FF"/><stop offset="1" stop-color="#EF80FF"/></linearGradient>
+<filter id="glow" x="-80%" y="-100%" width="260%" height="300%"><feGaussianBlur stdDeviation="12"/></filter>
+<filter id="soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="20"/></filter>
+</defs>
+<style>
+.name{font-family:Arial,'Segoe UI',sans-serif;font-weight:900;letter-spacing:4px}
+.role{font-family:Arial,'Segoe UI',sans-serif;font-size:31px;letter-spacing:1px;fill:#DAE3FF;text-anchor:middle;opacity:0;animation:rolecycle 20s linear infinite}
+.role.first{animation-delay:0s}
+.role.second{animation-delay:5s}
+.role.third{animation-delay:10s}
+.role.fourth{animation-delay:15s}
+@keyframes rolecycle {0%,2%{opacity:0}5%,20%{opacity:1}24%,100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.role{animation:none!important;opacity:0}.role.first{opacity:1}}
+</style>
+<rect width="1600" height="550" rx="22" fill="url(#bg)"/>
+<ellipse cx="800" cy="325" rx="665" ry="350" fill="url(#aura)"/>
+<rect x="18" y="22" width="27" height="27" rx="6" fill="#253869" opacity="0.16"/>
+<rect x="18" y="357" width="27" height="27" rx="6" fill="#233f83" opacity="0.25"/>
+<rect x="61" y="102" width="27" height="27" rx="6" fill="#253869" opacity="0.33999999999999997"/>
+<rect x="61" y="169" width="27" height="27" rx="6" fill="#233f83" opacity="0.43000000000000005"/>
+<rect x="104" y="156" width="27" height="27" rx="6" fill="#253869" opacity="0.16"/>
+<rect x="104" y="290" width="27" height="27" rx="6" fill="#253869" opacity="0.33999999999999997"/>
+<rect x="1376" y="236" width="27" height="27" rx="6" fill="#253869" opacity="0.33999999999999997"/>
+<rect x="1419" y="89" width="27" height="27" rx="6" fill="#233f83" opacity="0.25"/>
+<rect x="1419" y="290" width="27" height="27" rx="6" fill="#253869" opacity="0.16"/>
+<rect x="1462" y="35" width="27" height="27" rx="6" fill="#233f83" opacity="0.25"/>
+<rect x="1462" y="236" width="27" height="27" rx="6" fill="#253869" opacity="0.16"/>
+<rect x="1462" y="370" width="27" height="27" rx="6" fill="#253869" opacity="0.33999999999999997"/>
+<rect x="1505" y="89" width="27" height="27" rx="6" fill="#233f83" opacity="0.43000000000000005"/>
+<rect x="1505" y="357" width="27" height="27" rx="6" fill="#233f83" opacity="0.43000000000000005"/>
+<g opacity=".24" stroke="#5675CA" stroke-width="1"><path d="M0 238H1600M0 358H1600M0 475H1600"/><path d="M218 0V550M1382 0V550"/></g>
+<text x="800" y="122" text-anchor="middle" font-size="87" class="name" fill="#EAF2FF" opacity=".54" filter="url(#glow)">NITTIN CHUGHANI</text>
+<text x="800" y="122" text-anchor="middle" font-size="87" class="name" fill="#FCFDFF">NITTIN CHUGHANI</text>
+<g>
+<text class="role first" x="800" y="177">Computer Science &amp; Engineering Student</text>
+<text class="role second" x="800" y="177">Software Builder &amp; Digital Creator</text>
+<text class="role third" x="800" y="177">C++  ·  Python  ·  JavaScript</text>
+<text class="role fourth" x="800" y="177">Building Useful Open-Source Software</text>
+</g>
+<g transform="translate(407 213)">
+<ellipse cx="398" cy="281" rx="400" ry="42" fill="#5479FF" opacity=".15" filter="url(#soft)"/>
+<path d="M56 271L740 271L819 301L-11 301Z" fill="#12152B" stroke="#6B7BC0" stroke-opacity=".55" stroke-width="2"/>
+<path d="M269 31L540 31Q552 31 552 45L552 217Q552 229 540 229L269 229Q256 229 256 217L256 45Q256 31 269 31Z" fill="#0A0D21" stroke="#6B88D4" stroke-width="5"/>
+<rect x="272" y="47" width="264" height="163" rx="3" fill="url(#screen)"/>
+<path d="M272 49H536" stroke="url(#trim)" stroke-width="4"/>
+<circle cx="291" cy="66" r="3" fill="#FF7194"/><circle cx="303" cy="66" r="3" fill="#FFC871"/><circle cx="315" cy="66" r="3" fill="#69DFCB"/>
+<rect x="290" y="83" width="69" height="5" rx="3" fill="#68BAF8" opacity=".75"/>
+<rect x="299" y="98" width="132" height="5" rx="3" fill="#CB91FF" opacity=".85"/>
+<rect x="299" y="114" width="110" height="5" rx="3" fill="#85BFFF" opacity=".85"/>
+<rect x="319" y="130" width="164" height="5" rx="3" fill="#65DABF" opacity=".8"/>
+<rect x="319" y="146" width="87" height="5" rx="3" fill="#EFC18A" opacity=".8"/>
+<rect x="299" y="162" width="138" height="5" rx="3" fill="#98AEFF" opacity=".8"/>
+<rect x="299" y="178" width="92" height="5" rx="3" fill="#83CBFF" opacity=".75"/>
+<rect x="388" y="230" width="29" height="35" fill="#101A36" stroke="#47598C" stroke-width="2"/>
+<rect x="349" y="264" width="107" height="7" rx="4" fill="#293C6B"/>
+<g transform="translate(70 63) rotate(-8 90 81)">
+<rect width="176" height="149" rx="8" fill="#0B1029" stroke="#9D80EF" stroke-width="4"/>
+<rect x="12" y="12" width="152" height="125" rx="3" fill="#172049"/>
+<path d="M25 33H101M25 51H142M25 69H111M25 87H131M25 105H88" stroke="#738FEF" stroke-width="5" stroke-linecap="round"/>
+<path d="M25 45H75M25 80H61M25 116H139" stroke="#CF86E9" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g transform="translate(555 83) rotate(7 100 71)">
+<rect width="184" height="143" rx="8" fill="#0B1026" stroke="#6AA4F2" stroke-width="4"/>
+<rect x="12" y="13" width="160" height="117" rx="3" fill="#132347"/>
+<path d="M26 30H128M26 47H154M26 64H88M26 81H138M26 98H103" stroke="#67D8D5" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M26 39H77M26 73H133M26 107H149" stroke="#9B87FF" stroke-width="4" stroke-linecap="round"/>
+</g>
+<path d="M250 276L502 276L553 296L203 296Z" fill="#25315F" stroke="#7A92D2" stroke-width="2"/>
+<g stroke="#6E94DD" opacity=".75" stroke-width="3"><path d="M268 282H485M257 289H501"/></g>
+<path d="M645 273Q657 266 670 275L681 292Q666 301 654 291Z" fill="#29355E" stroke="#A98EFA" stroke-width="3"/>
+</g>
+<path d="M310 514H1290" stroke="url(#trim)" stroke-width="2" opacity=".4"/>
+</svg>
