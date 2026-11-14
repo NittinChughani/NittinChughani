@@ -66,18 +66,11 @@ Currently working with **C/C++, Python, and JavaScript**, while exploring softwa
 ### 🏆 Achievements & Milestones
 
 <!-- AUTO-ACHIEVEMENTS:START -->
-<table>
-<tr>
-<td width="50%" valign="top"><strong>🧩 5+ Public Repositories</strong><p>6 original public repositories published.</p></td>
-<td width="50%" valign="top"><strong>🌐 3+ GitHub Pages Projects</strong><p>3 public repositories have GitHub Pages enabled.</p></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><strong>⭐ 5+ Stars Received</strong><p>5 stars across original public repositories.</p></td>
-<td width="50%" valign="top"><strong>🤝 10+ Merged Pull Requests</strong><p>13 authored pull requests merged on GitHub.</p></td>
-</tr>
-</table>
+<p align="center">
+<img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/achievement-milestones.svg" width="100%" alt="Verified GitHub milestones" />
+</p>
 
-<sub>Updated daily from public GitHub data. These are development milestones, not GitHub-issued achievement badges. <a href="https://github.com/NittinChughani?tab=achievements">View official GitHub achievements</a>.</sub>
+<sub>Development milestones and publicly visible GitHub achievement badges refresh daily. Only badges actually detected on GitHub are shown.</sub>
 <!-- AUTO-ACHIEVEMENTS:END -->
 
 ---
