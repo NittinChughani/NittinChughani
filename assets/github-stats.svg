@@ -1,41 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="575" viewBox="0 0 1400 575" role="img" aria-label="GitHub statistics and languages used in public repositories">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#161A22"/><stop offset="1" stop-color="#10141B"/></linearGradient><linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#262A33"/><stop offset="1" stop-color="#1C202A"/></linearGradient></defs>
-<style>text{font-family:Arial,'Segoe UI',sans-serif} .head{fill:#E7EBF6;font-size:28px;font-weight:700}.number{font-size:39px;fill:#F1F3FB;font-weight:800}.label{font-size:16px;letter-spacing:1.1px;fill:#AAB5C9}.lang{font-size:25px;font-weight:700;fill:#F1F4FD}.pct{font-size:25px;font-weight:700;fill:#BBC9E8}</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="733" viewBox="0 0 1400 733" role="img" aria-label="GitHub statistics and most used programming languages">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#161A22"/><stop offset="1" stop-color="#10141B"/></linearGradient><linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#252A34"/><stop offset="1" stop-color="#1C212B"/></linearGradient></defs>
+<style>text{font-family:Arial,'Segoe UI',sans-serif}.head{fill:#E7EBF6;font-size:28px;font-weight:700}.number{font-size:39px;fill:#F1F3FB;font-weight:800}.label{font-size:16px;letter-spacing:1.1px;fill:#AAB5C9}.lang{font-size:25px;font-weight:700;fill:#F1F4FD}.pct{font-size:24px;font-weight:700;fill:#BBC9E8}</style>
 <rect x="2" y="2" rx="16" width="1396" height="268" fill="url(#bg)" stroke="#3C4558" stroke-width="2"/>
 <text x="36" y="53" class="head">GitHub Stats</text><path d="M35 69H1365" stroke="#323948"/>
 <rect x="34" y="87" width="423" height="72" rx="10" fill="url(#tile)" stroke="#4B5362"/>
 <text x="245" y="120" class="number" text-anchor="middle">6</text>
-<text x="245" y="144" class="label" font-size="15" text-anchor="middle">PUBLIC REPOS</text>
+<text x="245" y="144" class="label" text-anchor="middle">PUBLIC REPOS</text>
 <rect x="481" y="87" width="423" height="72" rx="10" fill="url(#tile)" stroke="#4B5362"/>
 <text x="692" y="120" class="number" text-anchor="middle">5</text>
-<text x="692" y="144" class="label" font-size="15" text-anchor="middle">STARS EARNED</text>
+<text x="692" y="144" class="label" text-anchor="middle">STARS EARNED</text>
 <rect x="928" y="87" width="423" height="72" rx="10" fill="url(#tile)" stroke="#4B5362"/>
-<text x="1139" y="120" class="number" text-anchor="middle">138</text>
-<text x="1139" y="144" class="label" font-size="15" text-anchor="middle">TOTAL COMMITS</text>
+<text x="1139" y="120" class="number" text-anchor="middle">141</text>
+<text x="1139" y="144" class="label" text-anchor="middle">TOTAL COMMITS</text>
 <rect x="34" y="170" width="423" height="72" rx="10" fill="url(#tile)" stroke="#4B5362"/>
 <text x="245" y="203" class="number" text-anchor="middle">13</text>
-<text x="245" y="227" class="label" font-size="15" text-anchor="middle">PULL REQUESTS</text>
+<text x="245" y="227" class="label" text-anchor="middle">PULL REQUESTS</text>
 <rect x="481" y="170" width="423" height="72" rx="10" fill="url(#tile)" stroke="#4B5362"/>
 <text x="692" y="203" class="number" text-anchor="middle">1</text>
-<text x="692" y="227" class="label" font-size="15" text-anchor="middle">ISSUES</text>
+<text x="692" y="227" class="label" text-anchor="middle">ISSUES</text>
 <rect x="928" y="170" width="423" height="72" rx="10" fill="url(#tile)" stroke="#4B5362"/>
-<text x="1139" y="203" class="number" text-anchor="middle">6</text>
-<text x="1139" y="227" class="label" font-size="15" text-anchor="middle">CONTRIBUTED TO</text>
-<rect x="2" y="288" rx="16" width="1396" height="282" fill="url(#bg)" stroke="#3C4558" stroke-width="2"/>
-<text x="36" y="335" class="head">Most Used Languages</text><text x="1364" y="332" fill="#8292B7" font-family="Arial" text-anchor="end" font-size="16">Share of primary languages in public code repositories</text><path d="M35 351H1365" stroke="#323948"/>
-<rect x="35" y="373" width="423" height="154" rx="12" fill="url(#tile)" stroke="#4B5362"/>
-<rect x="57" y="395" width="91" height="91" rx="20" fill="#262011" stroke="#f7df1e" stroke-opacity=".4"/>
-<text x="102" y="453" fill="#f7df1e" font-size="34" font-weight="900" font-family="Arial" text-anchor="middle">JS</text>
-<text x="168" y="442" class="lang">JavaScript</text><text x="413" y="442" class="pct" text-anchor="end">60%</text>
-<rect x="168" y="464" width="245" height="9" rx="5" fill="#353C4B"/><rect x="168" y="464" width="147" height="9" rx="5" fill="#f7df1e"/>
-<rect x="482" y="373" width="423" height="154" rx="12" fill="url(#tile)" stroke="#4B5362"/>
-<rect x="504" y="395" width="91" height="91" rx="20" fill="#112c50" stroke="#76abff" stroke-opacity=".4"/>
-<text x="549" y="453" fill="#76abff" font-size="28" font-weight="900" font-family="Arial" text-anchor="middle">C++</text>
-<text x="615" y="442" class="lang">C++</text><text x="860" y="442" class="pct" text-anchor="end">20%</text>
-<rect x="615" y="464" width="245" height="9" rx="5" fill="#353C4B"/><rect x="615" y="464" width="49" height="9" rx="5" fill="#76abff"/>
-<rect x="929" y="373" width="423" height="154" rx="12" fill="url(#tile)" stroke="#4B5362"/>
-<rect x="951" y="395" width="91" height="91" rx="20" fill="#1e3344" stroke="#8db4cc" stroke-opacity=".4"/>
-<text x="996" y="453" fill="#8db4cc" font-size="34" font-weight="900" font-family="Arial" text-anchor="middle">C</text>
-<text x="1062" y="442" class="lang">C</text><text x="1307" y="442" class="pct" text-anchor="end">20%</text>
-<rect x="1062" y="464" width="245" height="9" rx="5" fill="#353C4B"/><rect x="1062" y="464" width="49" height="9" rx="5" fill="#8db4cc"/>
+<text x="1139" y="203" class="number" text-anchor="middle">0</text>
+<text x="1139" y="227" class="label" text-anchor="middle">FOLLOWERS</text>
+<rect x="2" y="288" rx="16" width="1396" height="427" fill="url(#bg)" stroke="#3C4558" stroke-width="2"/>
+<text x="36" y="335" class="head">Most Used Languages</text>
+<text x="1364" y="332" fill="#8794AF" font-size="16" text-anchor="end">Based on code in public repositories</text>
+<path d="M35 351H1365" stroke="#323948"/>
+<rect x="35" y="373" width="423" height="148" rx="12" fill="url(#tile)" stroke="#4B5362"/>
+<rect x="57" y="396" width="90" height="90" rx="19" fill="#272313" stroke="#F7DF1E" stroke-opacity=".48"/>
+<text x="102" y="453" fill="#F7DF1E" font-size="33" font-weight="800" text-anchor="middle">JS</text>
+<text x="165" y="438" class="lang">JavaScript</text>
+<text x="418" y="438" class="pct" text-anchor="end">79.8%</text>
+<rect x="165" y="465" width="251" height="10" rx="5" fill="#343B4A"/>
+<rect x="165" y="465" width="200.39" height="10" rx="5" fill="#F7DF1E"/>
+<rect x="482" y="373" width="423" height="148" rx="12" fill="url(#tile)" stroke="#4B5362"/>
+<rect x="504" y="396" width="90" height="90" rx="19" fill="#39201A" stroke="#F79363" stroke-opacity=".48"/>
+<text x="549" y="453" fill="#F79363" font-size="33" font-weight="800" text-anchor="middle">H5</text>
+<text x="612" y="438" class="lang">HTML</text>
+<text x="865" y="438" class="pct" text-anchor="end">10.6%</text>
+<rect x="612" y="465" width="251" height="10" rx="5" fill="#343B4A"/>
+<rect x="612" y="465" width="26.72" height="10" rx="5" fill="#F79363"/>
+<rect x="929" y="373" width="423" height="148" rx="12" fill="url(#tile)" stroke="#4B5362"/>
+<rect x="951" y="396" width="90" height="90" rx="19" fill="#162D47" stroke="#76BFFF" stroke-opacity=".48"/>
+<text x="996" y="453" fill="#76BFFF" font-size="27" font-weight="800" text-anchor="middle">CSS</text>
+<text x="1059" y="438" class="lang">CSS</text>
+<text x="1312" y="438" class="pct" text-anchor="end">6.2%</text>
+<rect x="1059" y="465" width="251" height="10" rx="5" fill="#343B4A"/>
+<rect x="1059" y="465" width="15.68" height="10" rx="5" fill="#76BFFF"/>
+<rect x="35" y="538" width="423" height="148" rx="12" fill="url(#tile)" stroke="#4B5362"/>
+<rect x="57" y="561" width="90" height="90" rx="19" fill="#1D3449" stroke="#9EC6E4" stroke-opacity=".48"/>
+<text x="102" y="618" fill="#9EC6E4" font-size="33" font-weight="800" text-anchor="middle">C</text>
+<text x="165" y="603" class="lang">C</text>
+<text x="418" y="603" class="pct" text-anchor="end">2.0%</text>
+<rect x="165" y="630" width="251" height="10" rx="5" fill="#343B4A"/>
+<rect x="165" y="630" width="5.05" height="10" rx="5" fill="#9EC6E4"/>
+<rect x="482" y="538" width="423" height="148" rx="12" fill="url(#tile)" stroke="#4B5362"/>
+<rect x="504" y="561" width="90" height="90" rx="19" fill="#253449" stroke="#FFCA65" stroke-opacity=".48"/>
+<text x="549" y="618" fill="#FFCA65" font-size="33" font-weight="800" text-anchor="middle">PY</text>
+<text x="612" y="603" class="lang">Python</text>
+<text x="865" y="603" class="pct" text-anchor="end">1.0%</text>
+<rect x="612" y="630" width="251" height="10" rx="5" fill="#343B4A"/>
+<rect x="612" y="630" width="2.49" height="10" rx="5" fill="#FFCA65"/>
+<rect x="929" y="538" width="423" height="148" rx="12" fill="url(#tile)" stroke="#4B5362"/>
+<rect x="951" y="561" width="90" height="90" rx="19" fill="#17294B" stroke="#79AFFF" stroke-opacity=".48"/>
+<text x="996" y="618" fill="#79AFFF" font-size="27" font-weight="800" text-anchor="middle">C++</text>
+<text x="1059" y="603" class="lang">C++</text>
+<text x="1312" y="603" class="pct" text-anchor="end">0.3%</text>
+<rect x="1059" y="630" width="251" height="10" rx="5" fill="#343B4A"/>
+<rect x="1059" y="630" width="1.00" height="10" rx="5" fill="#79AFFF"/>
 </svg>
