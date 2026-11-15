@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-label="GearEx featured open-source project">
+<title>GearEx project</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1B2337"/><stop offset=".65" stop-color="#131B2C"/><stop offset="1" stop-color="#19182C"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#82C5FF"/><stop offset="1" stop-color="#887CFF"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#82C5FF" stop-opacity=".21"/><stop offset="1" stop-color="#82C5FF" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="1" width="598" height="218" rx="19" fill="url(#bg)" stroke="#45516E" stroke-width="2"/>
+<rect x="0" y="20" width="5" height="180" rx="2" fill="url(#accent)"/>
+<circle cx="90" cy="78" r="128" fill="url(#halo)"/>
+<path d="M27 19H573" stroke="#4D5A75" stroke-width="1" opacity=".65"/>
+<text x="28" y="40" font-family="Arial,Segoe UI,sans-serif" font-size="11" letter-spacing="1.8" font-weight="700" fill="#82C5FF">EDUCATION  /  DEVELOPER TOOLS</text>
+<text x="559" y="40" text-anchor="end" font-family="Arial,Segoe UI,sans-serif" font-size="13" letter-spacing="1.5" font-weight="700" fill="#788BA9">03  /  03</text>
+<rect x="28" y="49" width="94" height="88" rx="20" fill="#253048" stroke="#82C5FF" stroke-opacity=".6" stroke-width="1.5"/>
+<svg x="40" y="58" width="69" height="69" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><title id="title">GearEx original exchange-gear emblem</title><defs><linearGradient id="orbit" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0ABDC6"/><stop offset=".52" stop-color="#756BFF"/><stop offset="1" stop-color="#EA00D9"/></linearGradient><linearGradient id="core" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#8AF8FF"/><stop offset="1" stop-color="#FF78ED"/></linearGradient></defs><path d="M42 7 54 7 59 17 70 20 80 14 89 23 83 34 87 45 95 50 92 62 80 64 72 74 75 85 64 92 53 84 41 84 30 92 19 85 22 73 14 63 3 61 1 49 12 44 16 33 10 23 20 14 30 19 40 16Z" fill="#101a35" stroke="url(#orbit)" stroke-width="3.2" stroke-linejoin="round"/><path d="M48 23 69 36 69 59 48 73 27 60 27 36Z" fill="none" stroke="url(#orbit)" stroke-width="5" stroke-linejoin="round"/><path d="M31 48 42 37 49 44 41 52 49 59 64 43" fill="none" stroke="url(#core)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="64" cy="43" r="4.5" fill="#FF78ED"/><circle cx="31" cy="48" r="4" fill="#80F9FF"/></svg>
+<text x="146" y="103" font-size="37" font-family="Arial,Segoe UI,sans-serif" fill="#F6F8FF" font-weight="800">GearEx</text>
+<path d="M28 151H573" stroke="#465472"/>
+<text x="29" y="178" font-size="19" font-family="Arial,Segoe UI,sans-serif" fill="#D3DDF0">Learn to code by watching programs run.</text>
+<text x="29" y="204" font-size="19" font-family="Arial,Segoe UI,sans-serif" fill="#D3DDF0">Guided lessons, execution and visual tracing.</text>
+<path d="M524 111H572M560 99l12 12-12 12" stroke="#82C5FF" stroke-width="2.5" opacity=".55" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
