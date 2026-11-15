@@ -20,35 +20,25 @@ Currently working with **C/C++, Python, and JavaScript**, while exploring softwa
 
 ### 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/echoai.svg" alt="ECHO AI project card" width="100%" />
-      <p align="center">
-        <a href="https://nittinchughani.github.io/echoai/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/visit-site.svg" alt="Visit ECHO AI website" height="32" /></a>
-        &nbsp;
-        <a href="https://github.com/NittinChughani/echoai"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/source-code.svg" alt="Browse ECHO AI source code" height="32" /></a>
-      </p>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/turnahead.svg" alt="TurnAhead project card" width="100%" />
-      <p align="center">
-        <a href="https://nittinchughani.github.io/TurnAhead/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/visit-site.svg" alt="Visit TurnAhead website" height="32" /></a>
-        &nbsp;
-        <a href="https://github.com/NittinChughani/TurnAhead"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/source-code.svg" alt="Browse TurnAhead source code" height="32" /></a>
-      </p>
-    </td>
-  </tr>
-</table>
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/gearex.svg" alt="GearEx project card" width="49%" />
+  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/echoai-compact.svg" alt="ECHO AI project card" width="48%" />
+  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/turnahead-compact.svg" alt="TurnAhead project card" width="48%" />
 </p>
 <p align="center">
-        <a href="https://nittinchughani.github.io/gearex/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/visit-site.svg" alt="Visit GearEx website" height="32" /></a>
-        &nbsp;
-        <a href="https://github.com/NittinChughani/gearex"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/source-code.svg" alt="Browse GearEx source code" height="32" /></a>
-      </p>
+  <a href="https://nittinchughani.github.io/echoai/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/visit-site.svg" alt="Visit ECHO AI website" height="30" /></a>
+  <a href="https://github.com/NittinChughani/echoai"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/source-code.svg" alt="Browse ECHO AI source code" height="30" /></a>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  <a href="https://nittinchughani.github.io/TurnAhead/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/visit-site.svg" alt="Visit TurnAhead website" height="30" /></a>
+  <a href="https://github.com/NittinChughani/TurnAhead"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/source-code.svg" alt="Browse TurnAhead source code" height="30" /></a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/gearex-compact.svg" alt="GearEx project card" width="48%" />
+</p>
+<p align="center">
+  <a href="https://nittinchughani.github.io/gearex/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/visit-site.svg" alt="Visit GearEx website" height="30" /></a>
+  <a href="https://github.com/NittinChughani/gearex"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/source-code.svg" alt="Browse GearEx source code" height="30" /></a>
+</p>
 
 <p align="center">
   <a href="https://github.com/NittinChughani?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_ALL_REPOSITORIES-263247?style=for-the-badge&logo=github&logoColor=white" alt="Explore all GitHub repositories" /></a>
