@@ -1,74 +1,61 @@
 <div align="center">
-  <img
-    src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/profile-banner.svg"
-    alt="Nittin Chughani — computer science student and open-source developer"
-    width="100%"
-  />
+  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/profile-hero.svg" alt="Nittin Chughani — open-source developer and digital creator" width="100%" />
 </div>
 
----
+### 👋 About Me
 
-### 👨‍💻 About Me
+I'm a **Computer Science & Engineering student** and **freelance digital creator** who enjoys turning ideas into useful, accessible software. My projects range from AI-powered web tools and interactive programming education to practical systems built around real everyday needs.
 
-I'm a **Computer Science & Engineering student** and **freelance digital creator** based in Pakistan. I build open-source software that makes learning and everyday tasks more accessible.
-
-My work ranges from browser-based AI tools and interactive programming education to practical systems for people making their daily life easier. I enjoy taking projects from initial design through implementation, testing, and documentation.
-
-Currently working with **C/C++, Python, and JavaScript**, while exploring software engineering and game development.
+I work mainly with **C/C++, Python, and JavaScript**, and care about thoughtful interfaces, dependable functionality, and code that others can learn from. I like building things all the way from the first design to a working, documented release.
 
 ---
 
 ### 🚀 Featured Projects
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/echoai-compact.svg" alt="ECHO AI project card" width="48%" />
-  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/turnahead-compact.svg" alt="TurnAhead project card" width="48%" />
+  <a href="https://nittinchughani.github.io/echoai/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/echoai-portfolio.svg" width="48%" alt="ECHO AI — open live project" /></a>
+  <a href="https://nittinchughani.github.io/TurnAhead/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/turnahead-portfolio.svg" width="48%" alt="TurnAhead — open live project" /></a>
 </p>
 <p align="center">
-  <a href="https://nittinchughani.github.io/echoai/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/visit-site.svg" alt="Visit ECHO AI website" height="30" /></a>
-  <a href="https://github.com/NittinChughani/echoai"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/source-code.svg" alt="Browse ECHO AI source code" height="30" /></a>
-  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-  <a href="https://nittinchughani.github.io/TurnAhead/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/visit-site.svg" alt="Visit TurnAhead website" height="30" /></a>
-  <a href="https://github.com/NittinChughani/TurnAhead"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/source-code.svg" alt="Browse TurnAhead source code" height="30" /></a>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/gearex-compact.svg" alt="GearEx project card" width="48%" />
-</p>
-<p align="center">
-  <a href="https://nittinchughani.github.io/gearex/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/visit-site.svg" alt="Visit GearEx website" height="30" /></a>
-  <a href="https://github.com/NittinChughani/gearex"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/source-code.svg" alt="Browse GearEx source code" height="30" /></a>
+  <a href="https://nittinchughani.github.io/echoai/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/launch-demo.svg" alt="Open ECHO AI live website" height="30" /></a>
+  <a href="https://github.com/NittinChughani/echoai"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/explore-code.svg" alt="View ECHO AI source code" height="30" /></a>
+  &emsp;&emsp;&emsp;&emsp;&emsp;
+  <a href="https://nittinchughani.github.io/TurnAhead/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/launch-demo.svg" alt="Open TurnAhead live website" height="30" /></a>
+  <a href="https://github.com/NittinChughani/TurnAhead"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/explore-code.svg" alt="View TurnAhead source code" height="30" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/NittinChughani?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_ALL_REPOSITORIES-263247?style=for-the-badge&logo=github&logoColor=white" alt="Explore all GitHub repositories" /></a>
+  <a href="https://nittinchughani.github.io/gearex/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/gearex-portfolio.svg" width="48%" alt="GearEx — open live project" /></a>
+</p>
+<p align="center">
+  <a href="https://nittinchughani.github.io/gearex/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/launch-demo.svg" alt="Open GearEx live website" height="30" /></a>
+  <a href="https://github.com/NittinChughani/gearex"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/explore-code.svg" alt="View GearEx source code" height="30" /></a>
 </p>
 
----
-
-### 🌐 Connect With Me
-
-Interested in a collaboration or a freelance project? You can find my work here or get in touch through the links below.
-
-<a href="https://www.fiverr.com/users/nittinchughani/">
-  <img src="https://img.shields.io/badge/Fiverr-Freelance_Inquiries-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Contact me on Fiverr" />
-</a>
-<a href="https://www.facebook.com/share/19mHYS59Tp/">
-  <img src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Connect on Facebook" />
-</a>
+<p align="center">
+  <a href="https://github.com/NittinChughani?tab=repositories"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/all-repositories.svg" alt="Explore all GitHub repositories" height="37" /></a>
+</p>
 
 ---
 
 ### 📊 GitHub Stats & Languages Used
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/github-stats.svg" alt="Compact GitHub statistics and programming-language logos" width="100%" />
+  <img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/github-stats.svg" alt="Automatically refreshed GitHub activity statistics and original programming language logos" width="100%" />
 </div>
 
 ---
 
-<div align="center">
+### 🤝 Let's Connect
 
-**🚀 Always Learning. Always Building. Always Improving.**
+Have a project or an idea worth building? I'm interested in useful collaborations and thoughtful digital work.
 
-</div>
+<p align="center">
+  <a href="https://www.fiverr.com/users/nittinchughani/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/connect-fiverr.svg" alt="Contact me about work on Fiverr" height="36" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.facebook.com/share/19mHYS59Tp/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/connect-facebook.svg" alt="Connect with me on Facebook" height="36" /></a>
+</p>
+
+---
+
+<p align="center"><strong>Build with purpose. Keep learning. Share what works.</strong></p>
