@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="360" viewBox="0 0 1500 360" role="img" aria-label="Nittin Chughani — building useful open-source software">
+<title>Nittin Chughani | Open-source developer</title>
+<desc>Compact editorial developer banner with a dark gradient, bold typography, elegant terminal illustration and subtle motion.</desc>
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101629"/><stop offset=".57" stop-color="#0B1323"/><stop offset="1" stop-color="#15102A"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#69DBD1"/><stop offset=".55" stop-color="#7899FF"/><stop offset="1" stop-color="#B28AFF"/></linearGradient>
+  <linearGradient id="pane" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1C2A41"/><stop offset="1" stop-color="#151D30"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#6476E8" stop-opacity=".24"/><stop offset="1" stop-color="#6476E8" stop-opacity="0"/></radialGradient>
+  <clipPath id="clip"><rect x="1.5" y="1.5" width="1497" height="357" rx="20"/></clipPath>
+</defs>
+<style>
+  text{font-family:Arial,'Segoe UI',sans-serif}
+  .eyebrow{font-size:16px;letter-spacing:3.3px;font-weight:700;fill:#8DDDE1}
+  .name{font-size:79px;font-weight:900;letter-spacing:1px;fill:#F8FAFF}
+  .intro{font-size:29px;font-weight:650;fill:#C8D7F3}
+  .small{font-size:18px;fill:#9DAEC7}
+  .code{font-size:19px;font-family:'Consolas','Courier New',monospace}
+  .cursor{animation:blink 1.3s steps(2,start) infinite}
+  .glow{animation:shine 7s ease-in-out infinite alternate}
+  @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+  @keyframes shine{from{opacity:.45}to{opacity:.95}}
+  @media(prefers-reduced-motion:reduce){.cursor,.glow{animation:none}}
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1500" height="360" fill="url(#background)"/>
+  <ellipse cx="1100" cy="150" rx="600" ry="420" fill="url(#light)" class="glow"/>
+  <g stroke="#6A82C0" stroke-opacity=".085" stroke-width="1"><path d="M0 85H1500M0 160H1500M0 235H1500M0 310H1500M230 0V360M460 0V360M690 0V360M920 0V360M1150 0V360M1380 0V360"/></g>
+  <rect x="0" y="0" width="1500" height="5" fill="url(#accent)"/>
+  <circle cx="76" cy="58" r="6" fill="#75E5D4"/>
+  <text x="94" y="64" class="eyebrow">SOFTWARE  /  OPEN SOURCE  /  DESIGN</text>
+  <text x="70" y="167" class="name">Nittin Chughani</text>
+  <rect x="74" y="184" width="380" height="4" rx="2" fill="url(#accent)"/>
+  <text x="74" y="235" class="intro">Building software people can actually use.</text>
+  <text x="74" y="278" class="small">Computer Science &amp; Engineering  ·  Developer &amp; Digital Creator</text>
+  <g font-size="15" font-weight="700" fill="#C9D7EE" letter-spacing=".6">
+    <rect x="74" y="302" width="168" height="35" rx="10" fill="#1D2A41" stroke="#465A77"/>
+    <text x="93" y="325">WEB PRODUCTS</text>
+    <rect x="255" y="302" width="181" height="35" rx="10" fill="#1D2A41" stroke="#465A77"/>
+    <text x="274" y="325">DEV EDUCATION</text>
+    <rect x="449" y="302" width="188" height="35" rx="10" fill="#1D2A41" stroke="#465A77"/>
+    <text x="468" y="325">PRACTICAL TOOLS</text>
+  </g>
+  <g transform="translate(1014 42)">
+    <rect x="0" y="0" width="425" height="276" rx="20" fill="url(#pane)" stroke="#51617E" stroke-width="1.5"/>
+    <path d="M0 49H425" stroke="#3B4C66" stroke-width="1.5"/>
+    <circle cx="27" cy="26" r="6" fill="#FA7F94"/>
+    <circle cx="49" cy="26" r="6" fill="#F3C37E"/>
+    <circle cx="71" cy="26" r="6" fill="#65DDBB"/>
+    <text x="220" y="32" text-anchor="middle" font-size="15" fill="#8FA4C6" letter-spacing="1.5" font-weight="700">WORKSPACE / BUILD</text>
+    <text x="31" y="91" class="code" fill="#73E0CF">$</text>
+    <text x="55" y="91" class="code" fill="#E5EBF8">build --with-purpose</text>
+    <rect x="270" y="73" width="10" height="23" rx="1" fill="#6DD8D1" class="cursor"/>
+    <g font-size="20" font-family="Arial,'Segoe UI',sans-serif">
+      <text x="31" y="140" fill="#7ED9C6">✓</text><text x="65" y="140" fill="#DCE7F7">Thoughtful experiences</text>
+      <text x="31" y="180" fill="#7ED9C6">✓</text><text x="65" y="180" fill="#DCE7F7">Useful features</text>
+      <text x="31" y="220" fill="#7ED9C6">✓</text><text x="65" y="220" fill="#DCE7F7">Open-source by default</text>
+    </g>
+    <path d="M31 242H393" stroke="#3B4C66"/>
+    <circle cx="35" cy="258" r="4" fill="#69DCC8"/><text x="49" y="264" font-size="13" fill="#8EACB9">BUILD  ·  TEST  ·  SHIP</text>
+    <path d="M360 257H387" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <rect x="1.5" y="1.5" width="1497" height="357" rx="20" fill="none" stroke="#465875" stroke-width="3"/>
+</g>
+</svg>
