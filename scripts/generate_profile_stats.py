@@ -76,12 +76,12 @@ def make_dashboard_svg(stats, languages):
         '<path d="M757 27V201" stroke="#40516C" stroke-width="2"/>',
     ]
     for index, (label, value) in enumerate(stats):
-        x = 35 + (index % 3) * 238
-        y = 53 + (index // 3) * 77
+        x = 35 + (index % 2) * 362
+        y = 53 + (index // 2) * 77
         out.extend([
-            '<rect x="%d" y="%d" width="220" height="67" rx="11" fill="#222E43" stroke="#40516A"/>' % (x, y),
-            '<text x="%d" y="%d" font-family="Arial,Segoe UI,sans-serif" text-anchor="middle" font-size="31" font-weight="800" fill="#F3F6FF">%s</text>' % (x + 110, y + 31, escape(str(value))),
-            '<text x="%d" y="%d" font-family="Arial,Segoe UI,sans-serif" text-anchor="middle" font-size="13" letter-spacing=".5" fill="#A9BAD4">%s</text>' % (x + 110, y + 53, escape(label)),
+            '<rect x="%d" y="%d" width="342" height="67" rx="11" fill="#222E43" stroke="#40516A"/>' % (x, y),
+            '<text x="%d" y="%d" font-family="Arial,Segoe UI,sans-serif" text-anchor="middle" font-size="31" font-weight="800" fill="#F3F6FF">%s</text>' % (x + 171, y + 31, escape(str(value))),
+            '<text x="%d" y="%d" font-family="Arial,Segoe UI,sans-serif" text-anchor="middle" font-size="13" letter-spacing=".5" fill="#A9BAD4">%s</text>' % (x + 171, y + 53, escape(label)),
         ])
     # Six compact logo tiles in one row; further languages wrap to a second row.
     visible = languages[:12]
@@ -122,21 +122,18 @@ def main():
     person = request("/users/" + quote(USER))
     repos = get_public_repos()
     sizes = Counter()
-    stars = forks = 0
+    stars = 0
     for r in repos:
         stars += int(r.get("stargazers_count", 0))
-        forks += int(r.get("forks_count", 0))
         langs = request("/repos/" + quote(USER) + "/" + quote(r["name"]) + "/languages")
         sizes.update({lang: int(amount) for lang, amount in langs.items()})
     if not sizes:
         raise RuntimeError("No languages found; refusing to overwrite existing chart")
     stats = [
-        ("PUBLIC REPOS", person["public_repos"]),
+        ("PUBLIC REPOS", len(repos)),
         ("STARS EARNED", stars),
         ("TOTAL COMMITS", commit_count()),
-        ("PULL REQUESTS", search_count("pr")),
-        ("ISSUES", search_count("issue")),
-        ("FOLLOWERS", person["followers"])
+        ("PULL REQUESTS", search_count("pr"))
     ]
     languages = sorted(sizes.items(), key=lambda row: row[1], reverse=True)[:9]
     OUT.parent.mkdir(parents=True, exist_ok=True)
