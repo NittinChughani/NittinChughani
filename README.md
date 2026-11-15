@@ -12,7 +12,7 @@
 
 I'm a **Computer Science & Engineering student** and **freelance digital creator** based in Pakistan. I build open-source software that makes learning and everyday tasks more accessible.
 
-My work ranges from browser-based AI tools and interactive programming education to practical systems for managing clinic queues. I enjoy taking projects from initial design through implementation, testing, and documentation.
+My work ranges from browser-based AI tools and interactive programming education to practical systems for people making their daily life easier. I enjoy taking projects from initial design through implementation, testing, and documentation.
 
 Currently working with **C/C++, Python, and JavaScript**, while exploring software engineering and game development.
 
