@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-label="ECHO AI project card">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171E30"/><stop offset="1" stop-color="#111827"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9A83FF"/><stop offset="1" stop-color="#5D5CEB" stop-opacity=".15"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#9A83FF" stop-opacity=".16"/><stop offset="1" stop-color="#9A83FF" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="1" width="598" height="218" rx="19" fill="url(#bg)" stroke="#46516C" stroke-width="2"/>
+<rect x="15" y="13" width="570" height="4" rx="2" fill="url(#edge)"/>
+<circle cx="83" cy="79" r="92" fill="url(#glow)"/>
+<rect x="27" y="24" width="101" height="101" rx="23" fill="#222A40" stroke="#9A83FF" stroke-opacity=".6" stroke-width="1.5"/>
+<svg x="36" y="32" width="83" height="83" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#e9dbff"/><stop offset="1" stop-color="#9273ff"/></linearGradient></defs><rect width="64" height="64" rx="19" fill="#13111f"/><circle cx="32" cy="32" r="20" fill="none" stroke="url(#a)" stroke-width="3"/><circle cx="32" cy="32" r="12" fill="none" stroke="#8973e2" stroke-width="2"/><circle cx="32" cy="32" r="5" fill="url(#a)"/></svg>
+<text x="147" y="66" font-size="35" font-family="Arial,Segoe UI,sans-serif" fill="#F5F7FF" font-weight="800">ECHO AI</text>
+<text x="147" y="96" font-size="14" font-family="Arial,Segoe UI,sans-serif" fill="#9A83FF" font-weight="700" letter-spacing="1.6">AI CHAT</text>
+<path d="M28 142H572" stroke="#3A4660" stroke-width="1"/>
+<text x="30" y="176" font-size="20" font-family="Arial,Segoe UI,sans-serif" fill="#D4DDED">Free AI chat with two assistant modes,</text>
+<text x="30" y="203" font-size="20" font-family="Arial,Segoe UI,sans-serif" fill="#D4DDED">history, custom instructions and six themes.</text>
+</svg>
