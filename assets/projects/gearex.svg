@@ -1,18 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="195" viewBox="0 0 1200 195" role="img" aria-label="GearEx project overview">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-label="GearEx project card">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#161B2D"/><stop offset=".58" stop-color="#111728"/><stop offset="1" stop-color="#161A29"/></linearGradient>
-<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#70CFFD"/><stop offset="1" stop-color="#8F7CFF" stop-opacity=".05"/></linearGradient>
-<radialGradient id="halo"><stop stop-color="#70CFFD" stop-opacity=".24"/><stop offset="1" stop-color="#70CFFD" stop-opacity="0"/></radialGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171E30"/><stop offset="1" stop-color="#111827"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#70CFFD"/><stop offset="1" stop-color="#8F7CFF" stop-opacity=".15"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#70CFFD" stop-opacity=".16"/><stop offset="1" stop-color="#70CFFD" stop-opacity="0"/></radialGradient>
 </defs>
-<rect x="1" y="1" width="1198" height="193" rx="18" fill="url(#bg)" stroke="#3C4561" stroke-width="2"/>
-<rect x="19" y="15" width="1162" height="3" rx="2" fill="url(#line)"/>
-<circle cx="122" cy="97" r="102" fill="url(#halo)"/>
-<rect x="62" y="39" width="118" height="118" rx="24" fill="#22283D" stroke="#70CFFD" stroke-opacity=".65" stroke-width="2"/>
-<svg x="77" y="54" width="88" height="88" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><title id="title">GearEx original exchange-gear emblem</title><defs><linearGradient id="orbit" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0ABDC6"/><stop offset=".52" stop-color="#756BFF"/><stop offset="1" stop-color="#EA00D9"/></linearGradient><linearGradient id="core" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#8AF8FF"/><stop offset="1" stop-color="#FF78ED"/></linearGradient></defs><path d="M42 7 54 7 59 17 70 20 80 14 89 23 83 34 87 45 95 50 92 62 80 64 72 74 75 85 64 92 53 84 41 84 30 92 19 85 22 73 14 63 3 61 1 49 12 44 16 33 10 23 20 14 30 19 40 16Z" fill="#101a35" stroke="url(#orbit)" stroke-width="3.2" stroke-linejoin="round"/><path d="M48 23 69 36 69 59 48 73 27 60 27 36Z" fill="none" stroke="url(#orbit)" stroke-width="5" stroke-linejoin="round"/><path d="M31 48 42 37 49 44 41 52 49 59 64 43" fill="none" stroke="url(#core)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="64" cy="43" r="4.5" fill="#FF78ED"/><circle cx="31" cy="48" r="4" fill="#80F9FF"/></svg>
-<text x="215" y="66" font-size="34" font-family="Arial,Segoe UI,sans-serif" fill="#F8F9FF" font-weight="800">GearEx</text>
-<text x="215" y="94" font-size="14" font-family="Arial,Segoe UI,sans-serif" fill="#70CFFD" font-weight="700" letter-spacing="1.8">DEVELOPER EDUCATION</text>
-<text x="215" y="129" font-size="18" font-family="Arial,Segoe UI,sans-serif" fill="#D2DAED">Learn programming through guided lessons, coding practice,</text>
-<text x="215" y="156" font-size="18" font-family="Arial,Segoe UI,sans-serif" fill="#D2DAED">and a visualizer that explains program execution step by step.</text>
-<rect x="962" y="29" width="197" height="31" rx="16" fill="#70CFFD" fill-opacity=".10" stroke="#70CFFD" stroke-opacity=".42"/>
-<text x="1060" y="50" font-size="12" letter-spacing=".3" text-anchor="middle" font-family="Arial,Segoe UI,sans-serif" fill="#70CFFD" font-weight="700">INTERACTIVE · OPEN SOURCE</text>
+<rect x="1" y="1" width="598" height="218" rx="19" fill="url(#bg)" stroke="#46516C" stroke-width="2"/>
+<rect x="15" y="13" width="570" height="4" rx="2" fill="url(#edge)"/>
+<circle cx="83" cy="79" r="92" fill="url(#glow)"/>
+<rect x="27" y="24" width="101" height="101" rx="23" fill="#222A40" stroke="#70CFFD" stroke-opacity=".6" stroke-width="1.5"/>
+<svg x="36" y="32" width="83" height="83" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><title id="title">GearEx original exchange-gear emblem</title><defs><linearGradient id="orbit" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0ABDC6"/><stop offset=".52" stop-color="#756BFF"/><stop offset="1" stop-color="#EA00D9"/></linearGradient><linearGradient id="core" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#8AF8FF"/><stop offset="1" stop-color="#FF78ED"/></linearGradient></defs><path d="M42 7 54 7 59 17 70 20 80 14 89 23 83 34 87 45 95 50 92 62 80 64 72 74 75 85 64 92 53 84 41 84 30 92 19 85 22 73 14 63 3 61 1 49 12 44 16 33 10 23 20 14 30 19 40 16Z" fill="#101a35" stroke="url(#orbit)" stroke-width="3.2" stroke-linejoin="round"/><path d="M48 23 69 36 69 59 48 73 27 60 27 36Z" fill="none" stroke="url(#orbit)" stroke-width="5" stroke-linejoin="round"/><path d="M31 48 42 37 49 44 41 52 49 59 64 43" fill="none" stroke="url(#core)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="64" cy="43" r="4.5" fill="#FF78ED"/><circle cx="31" cy="48" r="4" fill="#80F9FF"/></svg>
+<text x="147" y="66" font-size="35" font-family="Arial,Segoe UI,sans-serif" fill="#F5F7FF" font-weight="800">GearEx</text>
+<text x="147" y="96" font-size="14" font-family="Arial,Segoe UI,sans-serif" fill="#70CFFD" font-weight="700" letter-spacing="1.6">PROGRAMMING EDUCATION</text>
+<path d="M28 142H572" stroke="#3A4660" stroke-width="1"/>
+<text x="30" y="176" font-size="20" font-family="Arial,Segoe UI,sans-serif" fill="#D4DDED">Guided coding lessons, code execution,</text>
+<text x="30" y="203" font-size="20" font-family="Arial,Segoe UI,sans-serif" fill="#D4DDED">and step-by-step program visualization.</text>
 </svg>
