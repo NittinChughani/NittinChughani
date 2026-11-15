@@ -1,18 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="195" viewBox="0 0 1200 195" role="img" aria-label="ECHO AI project overview">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-label="ECHO AI project card">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#161B2D"/><stop offset=".58" stop-color="#111728"/><stop offset="1" stop-color="#161A29"/></linearGradient>
-<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9A83FF"/><stop offset="1" stop-color="#5D5CEB" stop-opacity=".05"/></linearGradient>
-<radialGradient id="halo"><stop stop-color="#9A83FF" stop-opacity=".24"/><stop offset="1" stop-color="#9A83FF" stop-opacity="0"/></radialGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171E30"/><stop offset="1" stop-color="#111827"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9A83FF"/><stop offset="1" stop-color="#5D5CEB" stop-opacity=".15"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#9A83FF" stop-opacity=".16"/><stop offset="1" stop-color="#9A83FF" stop-opacity="0"/></radialGradient>
 </defs>
-<rect x="1" y="1" width="1198" height="193" rx="18" fill="url(#bg)" stroke="#3C4561" stroke-width="2"/>
-<rect x="19" y="15" width="1162" height="3" rx="2" fill="url(#line)"/>
-<circle cx="122" cy="97" r="102" fill="url(#halo)"/>
-<rect x="62" y="39" width="118" height="118" rx="24" fill="#22283D" stroke="#9A83FF" stroke-opacity=".65" stroke-width="2"/>
-<svg x="77" y="54" width="88" height="88" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#e9dbff"/><stop offset="1" stop-color="#9273ff"/></linearGradient></defs><rect width="64" height="64" rx="19" fill="#13111f"/><circle cx="32" cy="32" r="20" fill="none" stroke="url(#a)" stroke-width="3"/><circle cx="32" cy="32" r="12" fill="none" stroke="#8973e2" stroke-width="2"/><circle cx="32" cy="32" r="5" fill="url(#a)"/></svg>
-<text x="215" y="66" font-size="34" font-family="Arial,Segoe UI,sans-serif" fill="#F8F9FF" font-weight="800">ECHO AI</text>
-<text x="215" y="94" font-size="14" font-family="Arial,Segoe UI,sans-serif" fill="#9A83FF" font-weight="700" letter-spacing="1.8">AI CHAT</text>
-<text x="215" y="129" font-size="18" font-family="Arial,Segoe UI,sans-serif" fill="#D2DAED">A free, browser-based AI chat workspace with two assistant modes,</text>
-<text x="215" y="156" font-size="18" font-family="Arial,Segoe UI,sans-serif" fill="#D2DAED">searchable conversations, custom instructions, and six color themes.</text>
-<rect x="962" y="29" width="197" height="31" rx="16" fill="#9A83FF" fill-opacity=".10" stroke="#9A83FF" stroke-opacity=".42"/>
-<text x="1060" y="50" font-size="12" letter-spacing=".3" text-anchor="middle" font-family="Arial,Segoe UI,sans-serif" fill="#9A83FF" font-weight="700">FREE · NO SIGNUP</text>
+<rect x="1" y="1" width="598" height="218" rx="19" fill="url(#bg)" stroke="#46516C" stroke-width="2"/>
+<rect x="15" y="13" width="570" height="4" rx="2" fill="url(#edge)"/>
+<circle cx="83" cy="79" r="92" fill="url(#glow)"/>
+<rect x="27" y="24" width="101" height="101" rx="23" fill="#222A40" stroke="#9A83FF" stroke-opacity=".6" stroke-width="1.5"/>
+<svg x="36" y="32" width="83" height="83" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#e9dbff"/><stop offset="1" stop-color="#9273ff"/></linearGradient></defs><rect width="64" height="64" rx="19" fill="#13111f"/><circle cx="32" cy="32" r="20" fill="none" stroke="url(#a)" stroke-width="3"/><circle cx="32" cy="32" r="12" fill="none" stroke="#8973e2" stroke-width="2"/><circle cx="32" cy="32" r="5" fill="url(#a)"/></svg>
+<text x="147" y="66" font-size="35" font-family="Arial,Segoe UI,sans-serif" fill="#F5F7FF" font-weight="800">ECHO AI</text>
+<text x="147" y="96" font-size="14" font-family="Arial,Segoe UI,sans-serif" fill="#9A83FF" font-weight="700" letter-spacing="1.6">AI CHAT</text>
+<path d="M28 142H572" stroke="#3A4660" stroke-width="1"/>
+<text x="30" y="176" font-size="20" font-family="Arial,Segoe UI,sans-serif" fill="#D4DDED">Free AI chat with two assistant modes,</text>
+<text x="30" y="203" font-size="20" font-family="Arial,Segoe UI,sans-serif" fill="#D4DDED">history, custom instructions and six themes.</text>
 </svg>
