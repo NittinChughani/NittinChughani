@@ -10,34 +10,6 @@ I work mainly with **C/C++, Python, and JavaScript**, and care about thoughtful 
 
 ---
 
-### 🚀 Featured Projects
-
-<p align="center">
-  <a href="https://nittinchughani.github.io/echoai/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/echoai-portfolio.svg" width="48%" alt="ECHO AI — open live project" /></a>
-  <a href="https://nittinchughani.github.io/TurnAhead/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/turnahead-portfolio.svg" width="48%" alt="TurnAhead — open live project" /></a>
-</p>
-<p align="center">
-  <a href="https://nittinchughani.github.io/echoai/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/launch-demo.svg" alt="Open ECHO AI live website" height="30" /></a>
-  <a href="https://github.com/NittinChughani/echoai"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/explore-code.svg" alt="View ECHO AI source code" height="30" /></a>
-  &emsp;&emsp;&emsp;&emsp;&emsp;
-  <a href="https://nittinchughani.github.io/TurnAhead/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/launch-demo.svg" alt="Open TurnAhead live website" height="30" /></a>
-  <a href="https://github.com/NittinChughani/TurnAhead"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/explore-code.svg" alt="View TurnAhead source code" height="30" /></a>
-</p>
-
-<p align="center">
-  <a href="https://nittinchughani.github.io/gearex/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/projects/gearex-portfolio.svg" width="48%" alt="GearEx — open live project" /></a>
-</p>
-<p align="center">
-  <a href="https://nittinchughani.github.io/gearex/"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/launch-demo.svg" alt="Open GearEx live website" height="30" /></a>
-  <a href="https://github.com/NittinChughani/gearex"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/explore-code.svg" alt="View GearEx source code" height="30" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/NittinChughani?tab=repositories"><img src="https://raw.githubusercontent.com/NittinChughani/NittinChughani/main/assets/buttons/all-repositories.svg" alt="Explore all GitHub repositories" height="37" /></a>
-</p>
-
----
-
 ### 📊 GitHub Stats & Languages Used
 
 <div align="center">
