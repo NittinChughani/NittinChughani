@@ -11,7 +11,7 @@
 <text x="568" y="84" font-family="Arial,Segoe UI,sans-serif" text-anchor="middle" font-size="31" font-weight="800" fill="#F3F6FF">5</text>
 <text x="568" y="106" font-family="Arial,Segoe UI,sans-serif" text-anchor="middle" font-size="13" letter-spacing=".5" fill="#A9BAD4">STARS EARNED</text>
 <rect x="35" y="130" width="342" height="67" rx="11" fill="#222E43" stroke="#40516A"/>
-<text x="206" y="161" font-family="Arial,Segoe UI,sans-serif" text-anchor="middle" font-size="31" font-weight="800" fill="#F3F6FF">271</text>
+<text x="206" y="161" font-family="Arial,Segoe UI,sans-serif" text-anchor="middle" font-size="31" font-weight="800" fill="#F3F6FF">304</text>
 <text x="206" y="183" font-family="Arial,Segoe UI,sans-serif" text-anchor="middle" font-size="13" letter-spacing=".5" fill="#A9BAD4">TOTAL COMMITS</text>
 <rect x="397" y="130" width="342" height="67" rx="11" fill="#222E43" stroke="#40516A"/>
 <text x="568" y="161" font-family="Arial,Segoe UI,sans-serif" text-anchor="middle" font-size="31" font-weight="800" fill="#F3F6FF">23</text>
